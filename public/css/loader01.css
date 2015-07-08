@@ -1,82 +1,48 @@
+
 .loader01 {
   position: absolute;
   left: 50%;
   top: 50%;
   width: 50px;
   height: 50px;
-  margin-left: -25px;
-  margin-top: -25px;
+  margin-left: -33px;
+  margin-top: -33px;
+  border: 8px solid red;
 
   -webkit-animation: loader01 2.0s 0s infinite ease-out;
   animation: loader01 2.0s 0s infinite ease-out;
 }
-.loader01:after {
-  content: "";
-  padding: 10px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-top: -10px;
-  margin-left: -10px;
-  background: white;
-
-  -webkit-animation: loader01-inner 2.0s 0s infinite ease-out;
-  animation: loader01-inner 2.0s 0s infinite ease-out;
-}
 
 @-webkit-keyframes loader01 {
   0%, 100% { 
-    border-radius: 25px;
+    border-radius: 35px;
     transform: rotateZ(135deg);
-    background: red;
+    border-color: red;
   }
   15% {
-    border-radius: 25px;
+    border-radius: 35px;
     border-top-left-radius: 0px;
     transform: rotateZ(225deg);
-    background: #e5a;
+    border-color: #e5a;
   }
   30% {
-    border-radius: 25px;
+    border-radius: 35px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
     transform: rotateZ(315deg);
-    background: #eb2;
+    border-color: #eb2;
   }
   45% {
-    border-radius: 25px;
+    border-radius: 35px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
     transform: rotateZ(405deg);
-    background: #13c;
+    border-color: #13c;
   }
   60%,80% {
     border-radius: 0px;
     transform: rotateZ(495deg);
-    background: #1d6;
-  }
-}
-@-webkit-keyframes loader01-inner {
-  0%, 100% { 
-    border-radius: 10px;
-  }
-  15% {
-    border-radius: 10px;
-    border-top-left-radius: 0px;
-  }
-  30% {
-    border-radius: 10px;
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;
-  }
-  45% {
-    border-radius: 10px;
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-  }
-  60%,80% {
-    border-radius: 0px;
+    border-color: #1d6;
   }
 }
