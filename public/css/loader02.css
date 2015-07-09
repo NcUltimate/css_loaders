@@ -15,7 +15,7 @@
   border-radius: 30px;
 
   -webkit-animation: loader02 1.0s 0s infinite linear;
-  animation: loader02-after 1.0s 0s infinite linear;
+  animation: loader02 1.0s 0s infinite linear;
 }
 .loader02:after {
   width: 30px;
@@ -26,7 +26,7 @@
   border-bottom: 2px solid red;
   border-radius: 20px;
 
-  -webkit-animation: loader02-after 1s 0s infinite linear;
+  -webkit-animation: loader02-after 1.0s 0s infinite linear;
   animation: loader02-after 1.0s 0s infinite linear;
 }
 

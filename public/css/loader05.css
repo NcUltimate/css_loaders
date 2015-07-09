@@ -1,0 +1,42 @@
+.loader05,
+.loader05:after,
+.loader05:before {
+  content: "";
+  border: 4px solid #048;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 0px;
+  margin-left: -4px;
+  margin-top: -4px;
+  border-radius: 45px;
+  background: none;
+}
+.loader05 {
+  -webkit-animation: loader05 2s 0.4s infinite ease;
+  animation: loader05 2s 0.4s infinite ease;
+}
+.loader05:before {
+  -webkit-animation: loader05 2s 0.2s infinite ease;
+  animation: loader05 2s 0.4s infinite ease;
+}
+.loader05:after {
+  -webkit-animation: loader05 2s 0s infinite ease;
+  animation: loader05 2s 0.4s infinite ease;
+}
+
+@-webkit-keyframes loader05 {
+  0% {
+    border-width: 4px;
+  }
+  90% {
+    padding: 40px;
+    margin-top: -42px;
+    margin-left: -42px;
+    border-width: 2px;
+    border-color: #04a;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}

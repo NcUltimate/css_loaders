@@ -3,8 +3,8 @@
 .loader03:after {
   position: absolute;
 
+  padding: 10px;
   content: "";
-  padding: 20px;
   left: 50%;
   top: 50%;
 
@@ -12,67 +12,70 @@
   border-radius: 50px;
 }
 .loader03 {
-  margin-left: -20px;
-  margin-top: 0px;
-  -webkit-animation: loader03 0.75s 0s infinite ease-out;
-  animation: loader03-inner 1.0s 0s infinite ease-out;
+  margin-left: -11px;
+  margin-top: 15px;
+
+  -webkit-animation: loader03 0.75s 0s infinite linear;
+  animation: loader03 0.75s 0s infinite linear;
 }
 .loader03:before {
-  margin-left: -42px;
-  margin-top: -58px;
+  margin-left: -35px;
+  margin-top: -55px;
+
   border-color: #1c8;
-  -webkit-animation: loader03-before 0.75s 0s infinite ease-out;
-  animation: loader03-before 1.0s 0s infinite ease-out;
+  -webkit-animation: loader03-before 0.75s 0s infinite linear;
+  animation: loader03-before 0.75s 0s infinite linear;
 }
 .loader03:after {
-  margin-left: 0px;
-  margin-top: -58px;
+  margin-left: 13px;
+  margin-top: -55px;
+
   border-color: #c51;
-  -webkit-animation: loader03-after 0.75s 0s infinite ease-out;
-  animation: loader03-after 1.0s 0s infinite ease-out;
+  -webkit-animation: loader03-after 0.75s 0s infinite linear;
+  animation: loader03-after 0.75s 0s infinite linear;
 }
 
 @-webkit-keyframes loader03 {
-  0%, 37%, 100% {
+  0%, 66%, 100% {
     padding: 10px;
-    margin-left: -11px;
-    margin-top: 9px;
     border-width: 1px;
+    margin-left: -11px;
+    margin-top: 15px;
   }
-  12%, 25% {
+  16%, 50% {
     padding: 20px;
-    margin-left: -24px;
-    margin-top: -4px;
-    border-width: 4px;
+    border-width: 2px;
+    margin-left: -21.5px;
+    margin-top: 4px;
   }
 }
 
 @-webkit-keyframes loader03-before {
-  0%, 25%, 67%, 100% {
+  0%, 16%, 83%, 100% {
     padding: 10px;
-    margin-left: -33px;
-    margin-top: -47px;
     border-width: 1px;
+    margin-left: -35px;
+    margin-top: -55px;
   }
-  37%, 50% {
+  33%, 66% {
     padding: 20px;
-    margin-left: -46px;
-    margin-top: -62px;
-    border-width: 4px;
+    border-width: 2px;
+    margin-left: -44px;
+    margin-top: -66px;
   }
 }
 
 @-webkit-keyframes loader03-after {
-  0%, 50%, 87%, 100% {
+  0%, 33%, 100% {
     padding: 10px;
-    margin-left: 9px;
-    margin-top: -47px;
     border-width: 1px;
+    margin-left: 13px;
+    margin-top: -55px;
   }
-  67%, 75% {
+  50%, 83% {
     padding: 20px;
-    margin-left: -4px;
-    margin-top: -62px;
-    border-width: 4px;
+    border-width: 2px;
+    margin-left: 2px;
+    margin-top: -66px;
   }
 }

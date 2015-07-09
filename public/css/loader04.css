@@ -1,0 +1,46 @@
+.loader04,
+.loader04:before,
+.loader04:after {
+  position: absolute;
+
+  content: "";
+  left: 50%;
+  top: 50%;
+
+  border-radius: 50px;
+}
+.loader04 {
+  padding: 30px;
+  margin-left: -34px;
+  margin-top: -34px;
+  border: 4px outset #e81;
+}
+.loader04:before {
+  background: red;
+  padding: 10px 1px;
+  margin-top: 0px;
+  margin-left: -1px;
+
+  -webkit-transform-origin: center top;
+  transform-origin: center top;
+
+  -webkit-animation: loader04 12s 0s infinite linear;
+  animation: loader04 12s 0s infinite linear;
+}
+.loader04:after {
+  background: red;
+  padding: 14px 1px;
+  margin-top: -28px;
+  margin-left: -1px;
+
+  -webkit-transform-origin: center bottom;
+  transform-origin: center bottom;
+
+  -webkit-animation: loader04 1s 0s infinite ease-out;
+  animation: loader04 1s 0s infinite ease-out;
+}
+
+@-webkit-keyframes loader04 {
+  0% { transform: rotateZ(0deg); }
+  100% { transform: rotateZ(360deg); }
+}
