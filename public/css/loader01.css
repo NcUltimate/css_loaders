@@ -3,10 +3,10 @@
   position: absolute;
   left: 50%;
   top: 50%;
-  width: 40px;
-  height: 40px;
-  margin-left: -28px;
-  margin-top: -28px;
+  width: 30px;
+  height: 30px;
+  margin-left: -18px;
+  margin-top: -18px;
   border: 8px solid red;
 
   -webkit-animation: loader01 2.0s 0s infinite ease-out;
@@ -17,20 +17,20 @@
   0%, 100% { 
     border-radius: 35px;
     transform: rotateZ(135deg);
-    border-color: red;
+    border-color: #080;
   }
   15% {
     border-radius: 35px;
     border-top-left-radius: 0px;
     transform: rotateZ(225deg);
-    border-color: #e5a;
+    /*border-color: #e5a;*/
   }
   30% {
     border-radius: 35px;
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
     transform: rotateZ(315deg);
-    border-color: #eb2;
+    /*border-color: #eb2;*/
   }
   45% {
     border-radius: 35px;
@@ -38,11 +38,11 @@
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
     transform: rotateZ(405deg);
-    border-color: #13c;
+    /*border-color: #13c;*/
   }
   60%,80% {
     border-radius: 0px;
     transform: rotateZ(495deg);
-    border-color: #1d6;
+    border-color: #0a8;
   }
 }

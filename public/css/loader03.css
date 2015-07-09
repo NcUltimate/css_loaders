@@ -15,24 +15,24 @@
   margin-left: -11px;
   margin-top: 15px;
 
-  -webkit-animation: loader03 0.75s 0s infinite linear;
-  animation: loader03 0.75s 0s infinite linear;
+  -webkit-animation: loader03 0.75s 0s infinite ease-out;
+  animation: loader03 0.75s 0s infinite ease-out;
 }
 .loader03:before {
   margin-left: -35px;
   margin-top: -55px;
 
   border-color: #1c8;
-  -webkit-animation: loader03-before 0.75s 0s infinite linear;
-  animation: loader03-before 0.75s 0s infinite linear;
+  -webkit-animation: loader03-before 0.75s 0s infinite ease-out;
+  animation: loader03-before 0.75s 0s infinite ease-out;
 }
 .loader03:after {
   margin-left: 13px;
   margin-top: -55px;
 
   border-color: #c51;
-  -webkit-animation: loader03-after 0.75s 0s infinite linear;
-  animation: loader03-after 0.75s 0s infinite linear;
+  -webkit-animation: loader03-after 0.75s 0s infinite ease-out;
+  animation: loader03-after 0.75s 0s infinite ease-out;
 }
 
 @-webkit-keyframes loader03 {
