@@ -8,74 +8,40 @@
   left: 50%;
   top: 50%;
 
-  border: 1px solid #18c;
+  border: 1px solid white;
   border-radius: 50px;
 }
 .loader03 {
   margin-left: -11px;
-  margin-top: 15px;
-
-  -webkit-animation: loader03 0.75s 0s infinite ease-out;
-  animation: loader03 0.75s 0s infinite ease-out;
+  margin-top: -11px;
 }
 .loader03:before {
-  margin-left: -35px;
-  margin-top: -55px;
+  margin-left: -33px;
+  margin-top: -11px;
 
-  border-color: #1c8;
-  -webkit-animation: loader03-before 0.75s 0s infinite ease-out;
-  animation: loader03-before 0.75s 0s infinite ease-out;
+  -webkit-transform-origin: center top;
+  transform-origin: center top;
+
+  -webkit-animation: loader03-before 1.0s 0s infinite linear;
+  animation: loader03-before 1.0s 0s infinite linear;
 }
 .loader03:after {
-  margin-left: 13px;
-  margin-top: -55px;
+  margin-left: 11px;
+  margin-top: -11px;
 
-  border-color: #c51;
-  -webkit-animation: loader03-after 0.75s 0s infinite ease-out;
-  animation: loader03-after 0.75s 0s infinite ease-out;
-}
+  -webkit-transform-origin: center top;
+  transform-origin: center top;
 
-@-webkit-keyframes loader03 {
-  0%, 66%, 100% {
-    padding: 10px;
-    border-width: 1px;
-    margin-left: -11px;
-    margin-top: 15px;
-  }
-  16%, 50% {
-    padding: 20px;
-    border-width: 2px;
-    margin-left: -21.5px;
-    margin-top: 4px;
-  }
+  -webkit-animation: loader03-after 1.0s 0s infinite linear;
+  animation: loader03-after 1.0s 0s infinite linear;
 }
 
 @-webkit-keyframes loader03-before {
-  0%, 16%, 83%, 100% {
-    padding: 10px;
-    border-width: 1px;
-    margin-left: -35px;
-    margin-top: -55px;
-  }
-  33%, 66% {
-    padding: 20px;
-    border-width: 2px;
-    margin-left: -44px;
-    margin-top: -66px;
-  }
+  0%, 50% { transform: translateX(0px); }
+  35% { transform: translateX(-30px) rotateZ(-90deg); }
 }
 
 @-webkit-keyframes loader03-after {
-  0%, 33%, 100% {
-    padding: 10px;
-    border-width: 1px;
-    margin-left: 13px;
-    margin-top: -55px;
-  }
-  50%, 83% {
-    padding: 20px;
-    border-width: 2px;
-    margin-left: 2px;
-    margin-top: -66px;
-  }
+  0%, 50%, 100% { transform: translateX(0px); }
+  85% { transform: translateX(30px) rotateZ(90deg); }
 }

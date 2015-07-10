@@ -13,28 +13,28 @@
   padding: 30px;
   margin-left: -34px;
   margin-top: -34px;
-  border: 4px outset #e81;
+  border: 4px solid white;
 }
 .loader04:before {
-  background: red;
-  padding: 10px 1px;
-  margin-top: 0px;
-  margin-left: -1px;
+  background: white;
+  padding: 10px 2px;
+  margin-top: -2px;
+  margin-left: -2px;
 
-  -webkit-transform-origin: center top;
-  transform-origin: center top;
+  -webkit-transform-origin: center 2px;
+  transform-origin: center 2px;
 
   -webkit-animation: loader04 12s 0s infinite linear;
   animation: loader04 12s 0s infinite linear;
 }
 .loader04:after {
-  background: red;
-  padding: 14px 1px;
-  margin-top: -28px;
-  margin-left: -1px;
+  background: white;
+  padding: 14px 2px;
+  margin-top: -26px;
+  margin-left: -2px;
 
-  -webkit-transform-origin: center bottom;
-  transform-origin: center bottom;
+  -webkit-transform-origin: center 26px;
+  transform-origin: center 26px;
 
   -webkit-animation: loader04 1s 0s infinite ease-out;
   animation: loader04 1s 0s infinite ease-out;

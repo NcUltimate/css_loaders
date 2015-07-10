@@ -1,14 +1,19 @@
 !!!
 %html
   %head
+    %link{ :href => 'http://fonts.googleapis.com/css?family=Slabo+27px', :rel => 'stylesheet', :type => 'text/css'}
     %link{:rel => :stylesheet, :type => :"text/css", :href => "css/all.css"}
     %link{:rel => :stylesheet, :type => :"text/css", :href => "css/loader01.css"}
   %body
-    .header CSS Loader Gallery
+    .header 
+      %h2 Loading.CSS
+      %p A series of basic animated loaders using only 1 HTML element. The rest is CSS.
     .loaders
-      -num_loaders.times do |k|
+      -loaders.each_with_index do |loader, k|
         -cstr = ( k < 10 ? "0#{k+1}" : "#{k+1}")
         .loader
           .container
             %div{:class => "loader#{cstr}" }
-          .name= loaders[k]
+          .info
+            %span.date= loader['date']
+            %span.name= loader['name']

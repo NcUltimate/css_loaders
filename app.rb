@@ -1,10 +1,10 @@
 require 'sinatra'
+require 'JSON'
 
 set :port, 9494
 
-loaders = ['07-05: Corners', '07-06: Portal', '07-07: Pulse']
-loaders += ['07-08: Clock', '07-09: Splash', '07-10: Paddle']
+loaders = JSON.parse(open('loaders.json', &:read))
 get '/' do
   haml :index, :locals => {:num_loaders => loaders.count, 
-                          :loaders => loaders}
+                          :loaders => loaders['loaders']}
 end
