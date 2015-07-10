@@ -6,6 +6,8 @@
     {"date": "07-08", "name":"Clock"},
     {"date": "07-09", "name":"Splash"},
     {"date": "07-10", "name":"Paddle"},
-    {"date": "07-11", "name":"Atom"}
+    {"date": "07-11", "name":"Atom"},
+    {"date": "07-12", "name":"Hourglass"},
+    {"date": "07-13", "name":"Railroad"}
   ]
 }

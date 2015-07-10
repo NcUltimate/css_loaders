@@ -8,16 +8,16 @@
   left: 50%;
   top: 50%;
 
-  border: 1px solid white;
+  border: 2px solid white;
   border-radius: 50px;
 }
 .loader03 {
-  margin-left: -11px;
-  margin-top: -11px;
+  margin-left: -12px;
+  margin-top: -12px;
 }
 .loader03:before {
-  margin-left: -33px;
-  margin-top: -11px;
+  margin-left: -34px;
+  margin-top: -12px;
 
   -webkit-transform-origin: center top;
   transform-origin: center top;
@@ -37,11 +37,11 @@
 }
 
 @-webkit-keyframes loader03-before {
-  0%, 50% { transform: translateX(0px); }
-  35% { transform: translateX(-30px) rotateZ(-90deg); }
+  0%, 50% { transform: translateX(0px) rotateZ(0deg); }
+  35% { transform: translateX(-30px) rotateZ(180deg); }
 }
 
 @-webkit-keyframes loader03-after {
-  0%, 50%, 100% { transform: translateX(0px); }
-  85% { transform: translateX(30px) rotateZ(90deg); }
+  0%, 50%, 100% { transform: translateX(0px) rotateZ(0deg); }
+  85% { transform: translateX(30px) rotateZ(-180deg); }
 }

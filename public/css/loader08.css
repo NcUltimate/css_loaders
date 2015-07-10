@@ -1,0 +1,90 @@
+.loader08,
+.loader08:before,
+.loader08:after {
+  position: absolute;
+
+  content: "";
+  left: 50%;
+  top: 40%;
+}
+.loader08 {
+  margin-left: -20px;
+  margin-top: -30px;
+
+  border-top: 30px solid white;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+
+  -webkit-animation: loader08 1.5s 0s infinite linear;
+  animation: loader08 1.5s 0s infinite linear;
+}
+.loader08:before {
+  padding: 1px;
+  margin-left: -1px;
+  margin-top: 0px;
+  background: white;
+  border-radius: 4px;
+
+  -webkit-animation: loader08-before 0.25s 0s infinite linear;
+  animation: loader08-before 0.25s 0s infinite linear;
+}
+.loader08:after {
+  margin-left: -20px;
+  margin-top: 0px;
+
+  border-bottom: 0px solid white;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+
+  -webkit-transform-origin: center top;
+  transform-origin: center top;
+
+  -webkit-animation: loader08-after 1.5s 0s infinite linear;
+  animation: loader08-after 1.5s 0s infinite linear;
+}
+
+@-webkit-keyframes loader08 {
+  0% {
+    border-top: 30px solid white;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+  }
+  75%, 100% {
+    margin-top: 0px;
+    margin-left: 0px;
+    border-top: 0px solid white;
+    border-left: 0px solid transparent;
+    border-right: 0px solid transparent;
+  }
+}
+
+@-webkit-keyframes loader08-before {
+  0% { transform: translateY(0px); }
+  100% { transform: translateY(20px); }
+}
+
+@-webkit-keyframes loader08-after {
+  0% {
+    margin-top: 30px;
+    margin-left: 0px;
+    border-bottom: 0px solid white;
+    border-left: 0px solid transparent;
+    border-right: 0px solid transparent;
+  }
+  75% {
+    margin-top: 0px;
+    margin-left: -20px;
+    border-bottom: 30px solid white;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(180deg);
+    margin-top: 0px;
+    margin-left: -20px;
+    border-bottom: 30px solid white;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+  }
+}
