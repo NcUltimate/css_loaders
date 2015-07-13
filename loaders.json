@@ -9,8 +9,14 @@
     {"date": "07-11", "name":"Atom"},
     {"date": "07-12", "name":"Hourglass"},
     {"date": "07-13", "name":"Railroad"},
-    {"date": "07-14", "name":"Basketball"},
-    {"date": "07-15", "name":"Football"},
-    {"date": "07-16", "name":"Radial"}
+    {"date": "07-14", "name":"Swoosh"},
+    {"date": "07-15", "name":"Fieldgoal"},
+    {"date": "07-16", "name":"Gyro"},
+    {"date": "07-17", "name":"Fireworks"},
+    {"date": "07-18", "name":"Calendar"},
+    {"date": "07-19", "name":"Fresh"},
+    {"date": "07-20", "name":"Pacman"},
+    {"date": "07-21", "name":"Blink"},
+    {"date": "07-22", "name":"Flip"}
   ]
 }
