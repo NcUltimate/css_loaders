@@ -42,17 +42,43 @@
 }
 @-webkit-keyframes loader06 {
   0%, 100% {
+    -webkit-transform: rotateZ(0deg) rotateX(30deg);
     transform: rotateZ(0deg) rotateX(30deg);
   }
   50% {
+    -webkit-transform: rotateZ(20deg) rotateX(45deg);
     transform: rotateZ(20deg) rotateX(45deg);
   }
 }
-@-webkit-keyframes loader06-before {
+@keyframes loader06 {
   0%, 100% {
-    transform: rotateZ(0deg) rotateX(-30deg) translateY(-80px) ;
+    -webkit-transform: rotateZ(0deg) rotateX(30deg);
+    transform: rotateZ(0deg) rotateX(30deg);
   }
   50% {
+    -webkit-transform: rotateZ(20deg) rotateX(45deg);
+    transform: rotateZ(20deg) rotateX(45deg);
+  }
+}
+
+
+@-webkit-keyframes loader06-before {
+  0%, 100% {
+    -webkit-transform: rotateZ(0deg) rotateX(-30deg) translateY(-80px);
+    transform: rotateZ(0deg) rotateX(-30deg) translateY(-80px);
+  }
+  50% {
+    -webkit-transform: rotateZ(-20deg) rotateX(-15deg) translateY(-10px);
+    transform: rotateZ(-20deg) rotateX(-15deg) translateY(-10px);
+  }
+}
+@keyframes loader06-before {
+  0%, 100% {
+    -webkit-transform: rotateZ(0deg) rotateX(-30deg) translateY(-80px);
+    transform: rotateZ(0deg) rotateX(-30deg) translateY(-80px);
+  }
+  50% {
+    -webkit-transform: rotateZ(-20deg) rotateX(-15deg) translateY(-10px);
     transform: rotateZ(-20deg) rotateX(-15deg) translateY(-10px);
   }
 }

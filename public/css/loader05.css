@@ -18,15 +18,18 @@
 }
 .loader05:before {
   -webkit-animation: loader05 2s 0.2s infinite ease;
-  animation: loader05 2s 0.4s infinite ease;
+  animation: loader05 2s 0.2s infinite ease;
 }
 .loader05:after {
   -webkit-animation: loader05 2s 0s infinite ease;
-  animation: loader05 2s 0.4s infinite ease;
+  animation: loader05 2s 0s infinite ease;
 }
 
 @-webkit-keyframes loader05 {
-  0% {
+  0%, 100% {
+    padding: 0px;
+    margin-left: -4px;
+    margin-top: -4px;
     border-width: 4px;
   }
   90% {
@@ -36,7 +39,19 @@
     border-width: 2px;
     opacity: 0.8;
   }
-  100% {
-    opacity: 0.5;
+}
+@keyframes loader05 {
+  0%, 100% {
+    padding: 0px;
+    margin-left: -4px;
+    margin-top: -4px;
+    border-width: 4px;
+  }
+  90% {
+    padding: 40px;
+    margin-top: -42px;
+    margin-left: -42px;
+    border-width: 2px;
+    opacity: 0.8;
   }
 }
