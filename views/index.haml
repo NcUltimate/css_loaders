@@ -6,14 +6,21 @@
     %link{:rel => :stylesheet, :type => :"text/css", :href => "css/loader01.css"}
   %body
     .header 
-      %h2 Loading.CSS
-      %p A mini-series of basic animated loaders using only 1 HTML element and 100% CSS.
+      .header-section
+        %h2 Loading.CSS
+        %p A mini-series of basic animated loaders using only 1 HTML element and 100% CSS.
+      .header-section
+        %img{:src => 'assets/devices.png', :height => 400}
+        .demo-loaders
+          -loaders.sample(3).each_with_index do |loader, idx|
+            .loader{:class => sizes[idx]}
+              .container
+                %div{:class => loader["class"] }      
     .loaders
       -loaders.each_with_index do |loader, k|
-        -cstr = ( k < 9 ? "0#{k+1}" : "#{k+1}")
         .loader
           .container
-            %div{:class => "loader#{cstr}" }
+            %div{:class => loader["class"] }
           .info
             %span.date= loader['date']
             %span.name= loader['name']

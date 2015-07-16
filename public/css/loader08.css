@@ -44,14 +44,14 @@
 }
 
 @-webkit-keyframes loader08 {
-  0%, 96% {
+  0%, 97% {
     margin-left: -20px;
     margin-top: -30px;
     border-top: 30px solid white;
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
   }
-  75%, 95% {
+  75%, 96% {
     margin-top: 0px;
     margin-left: 0px;
     border-top: 0px solid white;

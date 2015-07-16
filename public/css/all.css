@@ -1,28 +1,25 @@
-@import url('loader01.css');
-@import url('loader02.css');
-@import url('loader03.css');
-@import url('loader04.css');
-@import url('loader05.css');
-@import url('loader06.css');
-@import url('loader07.css');
-@import url('loader08.css');
-@import url('loader09.css');
-@import url('loader10.css');
-@import url('loader11.css');
-@import url('loader12.css');
-@import url('loader13.css');
-@import url('loader14.css');
+@import url('loaders.css');
 
+/***********************************
+              GENERAL
+***********************************/
 body {
   margin: 0px;
   background: #08a;
   font-family: "Slabo 27px", sans-serif;
+  max-width: 1000px;
+  margin: auto;
 }
+
+/***********************************
+              HEADER
+***********************************/
 .header {
   width: 100%;
   margin: 0px;
-  padding: 100px 50px;
+  padding: 50px;
   box-sizing: border-box;
+  overflow: hidden;
 
   text-shadow: 0px 1px 1px gray;
   color: white;
@@ -36,8 +33,28 @@ body {
   font-size: 24px;
   color: #eee;
 }
+.header .header-section {
+  display: inline-block;
+  box-sizing: border-box;
+  vertical-align: middle;
+  width: 48%;
+  position: relative;
+}
+.header .header-section:first-child {
+  width: 25%;
+}
+.header .header-section img {
+  margin-left: 26px;
+}
+
+/***********************************
+          MAIN LOADERS
+***********************************/
 .loaders {
   padding: 20px;
+  width: 100%;
+  text-align: justify;
+  margin: auto;
 }
 .container {
   padding: 30px;
@@ -51,6 +68,7 @@ body {
   box-sizing: border-box;
 
   display: inline-block;
+  overflow: hidden;
 }
 .info {
   position: absolute;
@@ -70,11 +88,40 @@ body {
   color: white;
 }
 
+/***********************************
+            DEMO LOADERS
+***********************************/
+.demo-loaders .loader {
+  position: absolute;
+}
+.demo-loaders .loader:nth-child(1) {
+  top: 215px;
+  left: 125px;
+}
+.demo-loaders .loader:nth-child(2) {
+  top: 180px;
+  left: 246px;
+}
+.demo-loaders .loader:nth-child(3) {
+  top: 100px;
+  left: 500px;
+}
+
+/***********************************
+            MEDIA QUERIES
+***********************************/
 @media(max-width: 800px) {
+  .header .header-section {
+    display: block;
+    width: 100%!important;
+  }
+  .header .header-section:last-child {
+    display: none;
+  }
   .header p {
     width: 100%;
   }
-  .loader {
-    width: 100%;
+  .loaders {
+   text-align: center;
   }
 }

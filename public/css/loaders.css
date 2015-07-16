@@ -1,0 +1,37 @@
+@import url('loader01.css');
+@import url('loader02.css');
+@import url('loader03.css');
+@import url('loader04.css');
+@import url('loader05.css');
+@import url('loader06.css');
+@import url('loader07.css');
+@import url('loader08.css');
+@import url('loader09.css');
+@import url('loader10.css');
+@import url('loader11.css');
+@import url('loader12.css');
+@import url('loader13.css');
+@import url('loader14.css');
+@import url('loader15.css');
+@import url('loader16.css');
+@import url('loader17.css');
+@import url('loader18.css');
+
+.loader.small {
+  -webkit-transform: scale(0.5);
+  transform: scale(0.5);
+}
+
+.loader.large {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+.loader.xlarge {
+  -webkit-transform: scale(2);
+  transform: scale(2);
+}
+
+.loader.xxlarge {
+  -webkit-transform: scale(5);
+  transform: scale(5);
+}

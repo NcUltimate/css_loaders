@@ -1,0 +1,111 @@
+.loader16,
+.loader16:before,
+.loader16:after {
+  position: absolute;
+  content: "";
+
+  top: 50%;
+  left: 50%;
+}
+.loader16 {
+  border: 20px solid white;
+  border-radius: 20px;
+
+  margin-left: -20px;
+  margin-top: -20px;
+  z-index: 1;
+}
+.loader16:before {
+  padding: 4px;
+  margin-top: -4px;
+  margin-left: -20px;
+  border-radius: 8px;
+  z-index: 2;
+
+  -webkit-animation: loader16-before 0.5s 0s infinite linear;
+  animation: loader16-before 0.5s 0s infinite linear;
+}
+.loader16:after {
+  border-right: 20px solid #08a;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  z-index: 0;
+
+  margin-top: -20px;
+
+  -webkit-animation: loader16-after 0.5s 0s infinite ease-in-out;
+  animation: loader16-after 0.5s 0s infinite ease-in-out;
+}
+@-webkit-keyframes loader16-before {
+  0% {
+    box-shadow: 40px 0px 0px white,
+                60px 0px 0px white,
+                80px 0px 0px rgba(255,255,255,0);
+  }
+  40% {
+    box-shadow: 32px 0px 0px white,
+                52px 0px 0px white,
+                72px 0px 0px rgba(255,255,255,0);
+  }
+  50% {
+    box-shadow: 30px 0px 0px rgba(255,255,255,0),
+                50px 0px 0px white,
+                70px 0px 0px white;
+  }
+  100% {
+    box-shadow: 20px 0px 0px rgba(255,255,255,0),
+                40px 0px 0px white,
+                60px 0px 0px white;
+  }
+}
+@keyframes loader16-before {
+  0% {
+    box-shadow: 40px 0px 0px white,
+                60px 0px 0px white,
+                80px 0px 0px rgba(255,255,255,0);
+  }
+  40% {
+    box-shadow: 32px 0px 0px white,
+                52px 0px 0px white,
+                72px 0px 0px rgba(255,255,255,0);
+  }
+  50% {
+    box-shadow: 30px 0px 0px rgba(255,255,255,0),
+                50px 0px 0px white,
+                70px 0px 0px white;
+  }
+  100% {
+    box-shadow: 20px 0px 0px rgba(255,255,255,0),
+                40px 0px 0px white,
+                60px 0px 0px white;
+  }
+}
+@-webkit-keyframes loader16-after {
+  0%, 100% {
+    border-right: 20px solid #08a;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    margin-top: -20px;
+  }
+  50% {
+    border-right: 20px solid #08a;
+    border-top: 0px solid transparent;
+    border-bottom: 0px solid transparent;
+    margin-top: 0px;
+  }
+}
+@keyframes loader16-after {
+  0%, 100% {
+    border-right: 20px solid #08a;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    margin-top: -20px;
+  }
+  50% {
+    border-right: 20px solid #08a;
+    border-top: 0px solid transparent;
+    border-bottom: 0px solid transparent;
+    margin-top: 0px;
+  }
+}
+
