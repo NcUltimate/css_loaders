@@ -17,6 +17,16 @@
     {"date": "07-19", "name":"Chop", "class":"loader15"},
     {"date": "07-20", "name":"Pacman", "class":"loader16"},
     {"date": "07-21", "name":"Blink", "class":"loader17"},
-    {"date": "07-22", "name":"Flip", "class":"loader18"}
+    {"date": "07-22", "name":"Flip", "class":"loader18"},
+    {"date": "07-23", "name":"Balloon", "class":"loader19"},
+    {"date": "07-24", "name":"Speedometer", "class":"loader20"},
+    {"date": "07-25", "name":"Thermometer", "class":"loader21"},
+    {"date": "07-26", "name":"Bounce", "class":"loader22"},
+    {"date": "07-27", "name":"Pong", "class":"loader23"},
+    {"date": "07-28", "name":"Laptop", "class":"loader24"},
+    {"date": "07-29", "name":"Pour", "class":"loader25"},
+    {"date": "07-30", "name":"Flicker", "class":"loader26"},
+    {"date": "07-31", "name":"Bubble", "class":"loader27"},
+    {"date": "08-01", "name":"Disk", "class":"loader28"}
   ]
 }

@@ -55,6 +55,7 @@ body {
   width: 100%;
   text-align: justify;
   margin: auto;
+  box-sizing: border-box;
 }
 .container {
   padding: 30px;
@@ -96,7 +97,7 @@ body {
 }
 .demo-loaders .loader:nth-child(1) {
   top: 215px;
-  left: 125px;
+  left: 123px;
 }
 .demo-loaders .loader:nth-child(2) {
   top: 180px;

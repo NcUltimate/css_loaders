@@ -15,7 +15,7 @@
           -loaders.sample(3).each_with_index do |loader, idx|
             .loader{:class => sizes[idx]}
               .container
-                %div{:class => loader["class"] }      
+                %div{:class => loader["class"] }
     .loaders
       -loaders.each_with_index do |loader, k|
         .loader
@@ -24,3 +24,6 @@
           .info
             %span.date= loader['date']
             %span.name= loader['name']
+      -(7 - ((loaders.count + 6) % 6)).times do 
+        .loader
+          .container
