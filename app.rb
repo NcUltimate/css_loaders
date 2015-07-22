@@ -1,6 +1,6 @@
 require 'sinatra'
 require 'sinatra/base'
-require 'JSON'
+require 'json'
 
 class LoadingCSS < Sinatra::Base
 
