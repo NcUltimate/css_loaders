@@ -1,0 +1,76 @@
+.loader23,
+.loader23:before,
+.loader23:after {
+  position: absolute;
+  content: "";
+
+  top: 50%;
+  left: 50%;
+}
+.loader23 {
+  border-bottom: 10px solid white;
+  border-left: 11px solid transparent;
+  border-right: 11px solid transparent;
+  width: 22px;
+  margin: -30px -22px;
+}
+.loader23:before {
+  padding: 5px;
+  border: 20px solid white;
+  margin: 30px -25px;
+  border-radius: 30px;
+
+  -webkit-animation: loader23-before 2s 0s infinite linear;
+  animation: loader23-before 2s 0s infinite linear;
+}
+.loader23:after {
+  padding: 4px 20px;
+  margin: 10px -22px;
+  border: 2px solid white;
+}
+@-webkit-keyframes loader23-before {
+  0%, 100% {
+    -webkit-transform: rotateX(0deg) scale(1) translateY(0px);
+    transform: rotateX(0deg) scale(1) translateY(0px);
+  } 
+  20% {
+    -webkit-transform: rotateX(70deg) scale(1) translateY(0px);
+    transform: rotateX(70deg) scale(1) translateY(0px);
+  }
+  50%, 75% {
+    -webkit-transform: rotateX(70deg) scale(0.7) translateY(-180px);
+    transform: rotateX(70deg) scale(0.7) translateY(-180px);
+  }
+  80% {
+    -webkit-transform: rotateX(70deg) scale(0.8) translateY(-100px);
+    transform: rotateX(70deg) scale(0.8) translateY(-100px);
+  }
+  90% {
+    -webkit-transform: rotateX(30deg) scale(1) translateY(0px);
+    transform: rotateX(30deg) scale(1) translateY(0px);
+  }
+}
+@keyframes loader23-before {
+  0%, 100% {
+    -webkit-transform: rotateX(0deg) scale(1) translateY(0px);
+    transform: rotateX(0deg) scale(1) translateY(0px);
+  } 
+  20% {
+    -webkit-transform: rotateX(70deg) scale(1) translateY(0px);
+    transform: rotateX(70deg) scale(1) translateY(0px);
+  }
+  50%, 75% {
+    -webkit-transform: rotateX(70deg) scale(0.7) translateY(-180px);
+    transform: rotateX(70deg) scale(0.7) translateY(-180px);
+  }
+  80% {
+    -webkit-transform: rotateX(70deg) scale(0.8) translateY(-100px);
+    transform: rotateX(70deg) scale(0.8) translateY(-100px);
+  }
+  90% {
+    -webkit-transform: rotateX(30deg) scale(1) translateY(0px);
+    transform: rotateX(30deg) scale(1) translateY(0px);
+  }
+}
+
+

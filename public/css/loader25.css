@@ -1,0 +1,46 @@
+.loader25,
+.loader25:before,
+.loader25:after {
+  position: absolute;
+  content: "";
+
+  top: 50%;
+  left: 50%;
+}
+.loader25 {
+
+  -webkit-animation: loader25 1s 0s infinite ease;
+  animation: loader25 1s 0s infinite ease;
+}
+.loader25:before,
+.loader25:after {
+  border: 2px solid white;
+  padding: 20px 10px;
+  border-radius: 2px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.loader25:before {
+  margin: -29px -29px;
+  -webkit-animation: loader25-before 1s 0s infinite ease;
+  animation: loader25-before 1s 0s infinite ease;
+}
+.loader25:after {
+  margin: -29px 1px;
+  -webkit-animation: loader25-after 1s 0s infinite ease;
+  animation: loader25-after 1s 0s infinite ease;
+}
+@-webkit-keyframes loader25 {
+
+}
+@keyframes loader25 {
+
+}
+@-webkit-keyframes loader25-after {
+
+}
+@keyframes loader25-after {
+
+}
+
+

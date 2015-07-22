@@ -50,7 +50,22 @@
   }
 }
 @keyframes loader21-after {
-
+  0%, 100% {
+    padding: 25px 4px;
+    border-bottom: 2px solid white;
+  }
+  20%, 35% {
+    padding: 15px 4px;
+    border-bottom: 20px solid white;
+  }
+  40%, 50% {
+    padding: 10px 4px;
+    border-bottom: 30px solid white;
+  }
+  60%, 85% {
+    padding: 5px 4px;
+    border-bottom: 40px solid white;
+  }
 }
 
 

@@ -30,13 +30,13 @@
 @-webkit-keyframes loader19 {
   0% {
     padding: 0px;
-    margin: 20px -10px;
+    margin: 20px 0px;
     -webkit-transform: rotateZ(-45deg);
     transform: rotateZ(-45deg);
   }
   20%, 25% {
     padding: 20px;
-    margin: -20px;
+    margin: -20px -10px;
     -webkit-transform: rotateZ(-45deg);
     transform: rotateZ(-45deg);
   }
@@ -56,13 +56,13 @@
   }
   20%, 25% {
     padding: 20px;
-    margin: -20px 0px;
+    margin: -20px -10px;
     -webkit-transform: rotateZ(-45deg);
     transform: rotateZ(-45deg);
   }
   100% {
     padding: 0px;
-    margin: -50px -20px;
+    margin: -50px 20px;
     -webkit-transform: rotateZ(-720deg);
     transform: rotateZ(-720deg);
   }

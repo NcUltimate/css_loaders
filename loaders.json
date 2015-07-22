@@ -22,11 +22,11 @@
     {"date": "07-24", "name":"Speedometer", "class":"loader20"},
     {"date": "07-25", "name":"Thermometer", "class":"loader21"},
     {"date": "07-26", "name":"Bounce", "class":"loader22"},
-    {"date": "07-27", "name":"Pong", "class":"loader23"},
-    {"date": "07-28", "name":"Laptop", "class":"loader24"},
-    {"date": "07-29", "name":"Pour", "class":"loader25"},
-    {"date": "07-30", "name":"Flicker", "class":"loader26"},
-    {"date": "07-31", "name":"Bubble", "class":"loader27"},
-    {"date": "08-01", "name":"Disk", "class":"loader28"}
+    {"date": "07-27", "name":"Disk", "class":"loader23"},
+    {"date": "07-28", "name":"Swipe", "class":"loader24"},
+    {"date": "07-29", "name":"Flicker", "class":"loader25"},
+    {"date": "07-30", "name":"Bubble", "class":"loader26"},
+    {"date": "07-31", "name":"Pong", "class":"loader27"},
+    {"date": "08-01", "name":"Magnify", "class":"loader28"}
   ]
 }
