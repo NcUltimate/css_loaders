@@ -13,12 +13,12 @@ A series of basic animated loaders using only 1 HTML element and 100% CSS. Sort 
 Using 1 HTML element guarantees a minimal addition to your project. Simply download the corresponding css file for the loader you want to use, and anywhere in your HTML make an element with its class. For example, to use a Clock loader, put the line
 
     <div class="container">
-        <div class="loader04"></div>
+        <div class="ld ld-clock"></div>
     </div>
 
 into your HTML or
 
     .container 
-      .loader04
+      .ld.ld-clock
 
 into your HAML wherever it is desired.
