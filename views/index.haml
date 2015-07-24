@@ -10,15 +10,15 @@
       .header-section
         %img{:src => 'assets/devices.png', :height => 400}
         .demo-loaders
-          -loaders.sample(3).each_with_index do |loader, idx|
+          -loaders[0..-3].sample(3).each_with_index do |loader, idx|
             .loader{:class => sizes[idx]}
               .container
-                %div{:class => loader["class"] }
+                %div{:class => "ld ld-#{loader['name'].downcase}" }
     .loaders
       -loaders.each_with_index do |loader, k|
         .loader
           .container
-            %div{:class => loader["class"] }
+            %div{:class => "ld ld-#{loader['name'].downcase}" }
           .info
             %span.date= loader['date']
             %span.name= loader['name']

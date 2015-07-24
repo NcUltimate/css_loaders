@@ -1,19 +1,10 @@
-.loader21,
-.loader21:before,
-.loader21:after {
-  position: absolute;
-  content: "";
-
-  top: 50%;
-  left: 50%;
-}
-.loader21 {
+.ld-thermometer {
   background: white;
   padding: 10px;
   margin: 10px -10px;
   border-radius: 30px;
 }
-.loader21:before {
+.ld-thermometer:before {
   padding: 1px 2px;
   background: white;
   margin: -45px 0px;
@@ -23,15 +14,15 @@
               0px 24px 0px white,
               0px 32px 0px white;
 }
-.loader21:after {
+.ld-thermometer:after {
   border: 2px solid white;
   padding: 25px 4px;
   margin: -50px -6px;
 
-  -webkit-animation: loader21-after 5s 0s infinite ease;
-  animation: loader21-after 5s 0s infinite ease;
+  -webkit-animation: ld-thermometer-after 5s 0s infinite ease;
+  animation: ld-thermometer-after 5s 0s infinite ease;
 }
-@-webkit-keyframes loader21-after {
+@-webkit-keyframes ld-thermometer-after {
   0%, 100% {
     padding: 25px 4px;
     border-bottom: 2px solid white;
@@ -49,7 +40,7 @@
     border-bottom: 40px solid white;
   }
 }
-@keyframes loader21-after {
+@keyframes ld-thermometer-after {
   0%, 100% {
     padding: 25px 4px;
     border-bottom: 2px solid white;

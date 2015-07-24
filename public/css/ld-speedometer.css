@@ -1,13 +1,4 @@
-.loader20,
-.loader20:before,
-.loader20:after {
-  position: absolute;
-  content: "";
-
-  top: 50%;
-  left: 50%;
-}
-.loader20 {
+.ld-speedometer {
   background: none;
   padding: 26px;
   margin: -30px;
@@ -15,10 +6,10 @@
   border: 4px solid white;
   border-bottom: 4px solid transparent;
 }
-.loader20:before {
+.ld-speedometer:before {
 
 }
-.loader20:after {
+.ld-speedometer:after {
   padding: 12px 2px;
   margin: -20px -2px;
   border-radius: 5px;
@@ -31,10 +22,10 @@
   -webkit-transform: rotateZ(-95deg);
   transform: rotateZ(-95deg);
 
-  -webkit-animation: loader20-after 3s 0s infinite ease;
-  animation: loader20-after 3s 0s infinite ease;
+  -webkit-animation: ld-speedometer-after 3s 0s infinite ease;
+  animation: ld-speedometer-after 3s 0s infinite ease;
 }
-@-webkit-keyframes loader20-after {
+@-webkit-keyframes ld-speedometer-after {
   0%, 15% {
     -webkit-transform: rotateZ(-85deg);
     transform: rotateZ(-85deg);
@@ -52,7 +43,7 @@
     transform: rotateZ(-85deg);
   }
 }
-@keyframes loader20-after {
+@keyframes ld-speedometer-after {
   0%, 15% {
     -webkit-transform: rotateZ(-85deg);
     transform: rotateZ(-85deg);

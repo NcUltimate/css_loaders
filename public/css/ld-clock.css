@@ -1,46 +1,42 @@
-.loader04,
-.loader04:before,
-.loader04:after {
+.ld-clock,
+.ld-clock:before,
+.ld-clock:after {
+  border-radius: 50px;
   position: absolute;
 
   content: "";
   left: 50%;
   top: 50%;
-
-  border-radius: 50px;
 }
-.loader04 {
+.ld-clock {
   padding: 30px;
-  margin-left: -34px;
-  margin-top: -34px;
+  margin: -34px;
   border: 4px solid white;
 }
-.loader04:before {
+.ld-clock:before {
   background: white;
   padding: 10px 2px;
-  margin-top: -2px;
-  margin-left: -2px;
+  margin: -2px;
 
   -webkit-transform-origin: center 2px;
   transform-origin: center 2px;
 
-  -webkit-animation: loader04 12s 0s infinite linear;
-  animation: loader04 12s 0s infinite linear;
+  -webkit-animation: ld-clock 12s 0s infinite linear;
+  animation: ld-clock 12s 0s infinite linear;
 }
-.loader04:after {
+.ld-clock:after {
   background: white;
   padding: 14px 2px;
-  margin-top: -26px;
-  margin-left: -2px;
+  margin: -26px -2px;
 
   -webkit-transform-origin: center 26px;
   transform-origin: center 26px;
 
-  -webkit-animation: loader04 1s 0s infinite ease-out;
-  animation: loader04 1s 0s infinite ease-out;
+  -webkit-animation: ld-clock 1s 0s infinite ease-out;
+  animation: ld-clock 1s 0s infinite ease-out;
 }
 
-@-webkit-keyframes loader04 {
+@-webkit-keyframes ld-clock {
   0% { 
     -webkit-transform: rotateZ(0deg); 
     transform: rotateZ(0deg); 
@@ -50,7 +46,7 @@
     transform: rotateZ(360deg); 
   }
 }
-@keyframes loader04 {
+@keyframes ld-clock {
   0% { 
     -webkit-transform: rotateZ(0deg); 
     transform: rotateZ(0deg); 

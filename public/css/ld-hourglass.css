@@ -1,37 +1,28 @@
-.loader08,
-.loader08:before,
-.loader08:after {
-  position: absolute;
-
-  content: "";
-  left: 50%;
+.ld-hourglass,
+.ld-hourglass:before,
+.ld-hourglass:after {
   top: 40%;
 }
-.loader08 {
-  margin-left: -20px;
-  margin-top: -30px;
-
+.ld-hourglass {
+  margin: -30px -20px;
   border-top: 30px solid white;
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
 
-  -webkit-animation: loader08 1.5s 0s infinite linear;
-  animation: loader08 1.5s 0s infinite linear;
+  -webkit-animation: ld-hourglass 1.5s 0s infinite linear;
+  animation: ld-hourglass 1.5s 0s infinite linear;
 }
-.loader08:before {
+.ld-hourglass:before {
   padding: 1px;
-  margin-left: -1px;
-  margin-top: 0px;
+  margin: 0px -1px;
   background: white;
   border-radius: 4px;
 
-  -webkit-animation: loader08-before 0.25s 0s infinite linear;
-  animation: loader08-before 0.25s 0s infinite linear;
+  -webkit-animation: ld-hourglass-before 0.25s 0s infinite linear;
+  animation: ld-hourglass-before 0.25s 0s infinite linear;
 }
-.loader08:after {
-  margin-left: -20px;
-  margin-top: 0px;
-
+.ld-hourglass:after {
+  margin: 0px -20px;
   border-bottom: 0px solid white;
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
@@ -39,44 +30,40 @@
   -webkit-transform-origin: center top;
   transform-origin: center top;
 
-  -webkit-animation: loader08-after 1.5s 0s infinite linear;
-  animation: loader08-after 1.5s 0s infinite linear;
+  -webkit-animation: ld-hourglass-after 1.5s 0s infinite linear;
+  animation: ld-hourglass-after 1.5s 0s infinite linear;
 }
 
-@-webkit-keyframes loader08 {
+@-webkit-keyframes ld-hourglass {
   0%, 97% {
-    margin-left: -20px;
-    margin-top: -30px;
+    margin: -30px -20px;
     border-top: 30px solid white;
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
   }
   75%, 96% {
-    margin-top: 0px;
-    margin-left: 0px;
+    margin: 0px;
     border-top: 0px solid white;
     border-left: 0px solid transparent;
     border-right: 0px solid transparent;
   }
 }
-@keyframes loader08 {
-  0%, 96% {
-    margin-left: -20px;
-    margin-top: -30px;
+@keyframes ld-hourglass {
+  0%, 97% {
+    margin: -30px -20px;
     border-top: 30px solid white;
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
   }
-  75%, 95% {
-    margin-top: 0px;
-    margin-left: 0px;
+  75%, 96% {
+    margin: 0px;
     border-top: 0px solid white;
     border-left: 0px solid transparent;
     border-right: 0px solid transparent;
   }
 }
 
-@-webkit-keyframes loader08-before {
+@-webkit-keyframes ld-hourglass-before {
   0% { 
     -webkit-transform: translateY(0px); 
     transform: translateY(0px); 
@@ -86,7 +73,7 @@
     transform: translateY(20px); 
   }
 }
-@keyframes loader08-before {
+@keyframes ld-hourglass-before {
   0% { 
     -webkit-transform: translateY(0px); 
     transform: translateY(0px); 
@@ -97,13 +84,12 @@
   }
 }
 
-@-webkit-keyframes loader08-after {
+@-webkit-keyframes ld-hourglass-after {
   0% {
     opacity: 0;
   }
   10% {
-    margin-top: 30px;
-    margin-left: 0px;
+    margin: 30px 0px;
     border-bottom: 0px solid white;
     border-left: 0px solid transparent;
     border-right: 0px solid transparent;
@@ -112,8 +98,7 @@
     opacity: 1;
   }
   75% {
-    margin-top: 0px;
-    margin-left: -20px;
+    margin: 0px -20px;
     border-bottom: 30px solid white;
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
@@ -123,8 +108,7 @@
   95%, 98% {
     -webkit-transform: rotateX(180deg);
     transform: rotateX(180deg);
-    margin-top: 0px;
-    margin-left: -20px;
+    margin: 0px -20px;
     border-bottom: 30px solid white;
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
@@ -141,13 +125,12 @@
     transform: rotateX(0deg);
   }
 }
-@keyframes loader08-after {
-  0% {
+@keyframes ld-hourglass-after {
+   0% {
     opacity: 0;
   }
   10% {
-    margin-top: 30px;
-    margin-left: 0px;
+    margin: 30px 0px;
     border-bottom: 0px solid white;
     border-left: 0px solid transparent;
     border-right: 0px solid transparent;
@@ -156,8 +139,7 @@
     opacity: 1;
   }
   75% {
-    margin-top: 0px;
-    margin-left: -20px;
+    margin: 0px -20px;
     border-bottom: 30px solid white;
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
@@ -167,8 +149,7 @@
   95%, 98% {
     -webkit-transform: rotateX(180deg);
     transform: rotateX(180deg);
-    margin-top: 0px;
-    margin-left: -20px;
+    margin: 0px -20px;
     border-bottom: 30px solid white;
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;

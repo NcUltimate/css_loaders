@@ -1,6 +1,6 @@
-.loader03,
-.loader03:before,
-.loader03:after {
+.ld-cradle,
+.ld-cradle:before,
+.ld-cradle:after {
   position: absolute;
 
   padding: 10px;
@@ -11,32 +11,29 @@
   border: 2px solid white;
   border-radius: 50px;
 }
-.loader03 {
-  margin-left: -12px;
-  margin-top: -12px;
+.ld-cradle {
+  margin: -12px;
 }
-.loader03:before {
-  margin-left: -34px;
-  margin-top: -12px;
+.ld-cradle:before {
+  margin: -12px -34px;
 
   -webkit-transform-origin: center top;
   transform-origin: center top;
 
-  -webkit-animation: loader03-before 1.0s 0s infinite linear;
-  animation: loader03-before 1.0s 0s infinite linear;
+  -webkit-animation: ld-cradle-before 1.0s 0s infinite linear;
+  animation: ld-cradle-before 1.0s 0s infinite linear;
 }
-.loader03:after {
-  margin-left: 11px;
-  margin-top: -11px;
+.ld-cradle:after {
+  margin: -11px 11px;
 
   -webkit-transform-origin: center top;
   transform-origin: center top;
 
-  -webkit-animation: loader03-after 1.0s 0s infinite linear;
-  animation: loader03-after 1.0s 0s infinite linear;
+  -webkit-animation: ld-cradle-after 1.0s 0s infinite linear;
+  animation: ld-cradle-after 1.0s 0s infinite linear;
 }
 
-@-webkit-keyframes loader03-before {
+@-webkit-keyframes ld-cradle-before {
   0%, 50% { 
     -webkit-transform: translateX(0px) rotateZ(0deg); 
     transform: translateX(0px) rotateZ(0deg); 
@@ -46,7 +43,7 @@
     transform: translateX(-10px) rotateZ(90deg); 
   }
 }
-@keyframes loader03-before {
+@keyframes ld-cradle-before {
   0%, 50% { 
     -webkit-transform: translateX(0px) rotateZ(0deg); 
     transform: translateX(0px) rotateZ(0deg); 
@@ -57,7 +54,7 @@
   }
 }
 
-@-webkit-keyframes loader03-after {
+@-webkit-keyframes ld-cradle-after {
   0%, 50%, 100% { 
     -webkit-transform: translateX(0px) rotateZ(0deg); 
     transform: translateX(0px) rotateZ(0deg); 
@@ -67,7 +64,7 @@
     transform: translateX(10px) rotateZ(-90deg); 
   }
 }
-@keyframes loader03-after {
+@keyframes ld-cradle-after {
   0%, 50%, 100% { 
     -webkit-transform: translateX(0px) rotateZ(0deg); 
     transform: translateX(0px) rotateZ(0deg); 

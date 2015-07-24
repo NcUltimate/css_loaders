@@ -1,44 +1,25 @@
-@import url('loader01.css');
-@import url('loader02.css');
-@import url('loader03.css');
-@import url('loader04.css');
-@import url('loader05.css');
-@import url('loader06.css');
-@import url('loader07.css');
-@import url('loader08.css');
-@import url('loader09.css');
-@import url('loader10.css');
-@import url('loader11.css');
-@import url('loader12.css');
-@import url('loader13.css');
-@import url('loader14.css');
-@import url('loader15.css');
-@import url('loader16.css');
-@import url('loader17.css');
-@import url('loader18.css');
-@import url('loader19.css');
-@import url('loader20.css');
-@import url('loader21.css');
-@import url('loader22.css');
-@import url('loader23.css');
-@import url('loader24.css');
-@import url('loader25.css');
-
-.loader.small {
-  -webkit-transform: scale(0.5);
-  transform: scale(0.5);
-}
-
-.loader.large {
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5);
-}
-.loader.xlarge {
-  -webkit-transform: scale(2);
-  transform: scale(2);
-}
-
-.loader.xxlarge {
-  -webkit-transform: scale(5);
-  transform: scale(5);
-}
+@import url('ld-atom.css');
+@import url('ld-balloon.css');
+@import url('ld-blink.css');
+@import url('ld-bounce.css');
+@import url('ld-chop.css');
+@import url('ld-clock.css');
+@import url('ld-corners.css');
+@import url('ld-cradle.css');
+@import url('ld-disk.css');
+@import url('ld-fieldgoal.css');
+@import url('ld-fireworks.css');
+@import url('ld-flicker.css');
+@import url('ld-flip.css');
+@import url('ld-gyro.css');
+@import url('ld-hourglass.css');
+@import url('ld-keypad.css');
+@import url('ld-pacman.css');
+@import url('ld-paddle.css');
+@import url('ld-portal.css');
+@import url('ld-railroad.css');
+@import url('ld-speedometer.css');
+@import url('ld-splash.css');
+@import url('ld-swipe.css');
+@import url('ld-swoosh.css');
+@import url('ld-thermometer.css');

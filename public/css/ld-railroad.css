@@ -1,34 +1,21 @@
-.loader09,
-.loader09:before,
-.loader09:after {
-  position: absolute;
-
-  content: "";
-  left: 50%;
-  top: 50%;
-}
-.loader09 {
+.ld-railroad {
   padding: 15px 36px;
-  margin-left: -36px;
-  margin-top: -24px;
-
+  margin: -24px -36px;
   border-top: 2px solid white;
   border-bottom: 2px solid white;
 }
-.loader09:before {
+.ld-railroad:before {
+  margin: -20px -42px;
   padding: 20px 3px;
   background: none;
   left: 50%;
   top: 50%;
 
-  margin-left: -42px;
-  margin-top: -20px;
-
-  -webkit-animation: loader09-before 0.5s 0s infinite linear;
-  animation: loader09-before 0.5s 0s infinite linear;
+  -webkit-animation: ld-railroad-before 0.5s 0s infinite linear;
+  animation: ld-railroad-before 0.5s 0s infinite linear;
 }
 
-@-webkit-keyframes loader09-before {
+@-webkit-keyframes ld-railroad-before {
   0% {
     box-shadow: 14px 0px 0px white,
                 28px 0px 0px white,
@@ -54,7 +41,7 @@
                 70px 0px 0px white;
   }
 }
-@keyframes loader09-before {
+@keyframes ld-railroad-before {
   0% {
     box-shadow: 14px 0px 0px white,
                 28px 0px 0px white,

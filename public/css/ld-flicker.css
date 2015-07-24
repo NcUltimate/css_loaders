@@ -1,22 +1,13 @@
-.loader25,
-.loader25:before,
-.loader25:after {
-  position: absolute;
-  content: "";
-
-  top: 50%;
-  left: 50%;
-}
-.loader25 {
+.ld-flicker {
   border: 2px solid white;
   padding: 20px 15px;
   border-radius: 20px;
-  margin: -22px -17px;
-  -webkit-animation: loader25 2.5s 0s infinite ease;
-  animation: loader25 2.5s 0s infinite ease;
+  margin: -32px -17px;
+  -webkit-animation: ld-flicker 2.5s 0s infinite ease;
+  animation: ld-flicker 2.5s 0s infinite ease;
 }
-.loader25:before {
-  content: "– – – –";
+.ld-flicker:before {
+  content: "– – – –"!important;
   color: white;
   font-size: 20px;
   line-height: 4px;
@@ -31,17 +22,17 @@
   border: 2px solid white;
   border-top: none;
 }
-.loader25:after {
+.ld-flicker:after {
   padding: 10px 3px;
   border-left: 1px solid white;
   border-right: 1px solid white;
   border-top: 2px solid rgba(255,255,255,0);
   margin: 0px -4px;
 
-  -webkit-animation: loader25-after 2.5s 0s infinite ease;
-  animation: loader25-after 2.5s 0s infinite ease;
+  -webkit-animation: ld-flicker-after 2.5s 0s infinite ease;
+  animation: ld-flicker-after 2.5s 0s infinite ease;
 }
-@-webkit-keyframes loader25 {
+@-webkit-keyframes ld-flicker {
   0%, 10%, 65%, 75%, 81%, 85%, 95%, 100% {
     box-shadow: none;
     background: rgba(255,255,255, 0);
@@ -51,10 +42,17 @@
     background: white;
   }
 }
-@keyframes loader25 {
-
+@keyframes ld-flicker {
+  0%, 10%, 65%, 75%, 81%, 85%, 95%, 100% {
+    box-shadow: none;
+    background: rgba(255,255,255, 0);
+  }
+  20%, 60%, 78%, 90% {
+    box-shadow: 0px 0px 10px white;
+    background: white;
+  }
 }
-@-webkit-keyframes loader25-after {
+@-webkit-keyframes ld-flicker-after {
   0%, 10%, 65%, 75%, 81%, 85%, 95%, 100% {
     border-top: 2px solid rgba(255,255,255,0);
   }
@@ -62,7 +60,7 @@
     border-top: 2px solid white;
   }
 }
-@keyframes loader25-after {
+@keyframes ld-flicker-after {
   0%, 75%, 85%, 95%, 100% {
     border-top: 2px solid rgba(255,255,255,0);
   }

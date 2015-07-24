@@ -1,51 +1,46 @@
-.loader12,
-.loader12:before,
-.loader12:after {
+.ld-gyro,
+.ld-gyro:before,
+.ld-gyro:after {
   position: absolute;
-
   content: "";
   left: 50%;
   top: 50%;
 }
-.loader12 {
+.ld-gyro {
+  margin: -24px;
   padding: 20px;
   border: 4px solid white;
   border-radius: 30px;
   border-left-color: transparent;
   border-right-color: transparent;
 
-  margin-top: -24px;
-  margin-left: -24px;
-
-  -webkit-animation: loader12 2s 0s infinite linear;
-  animation: loader12 2s 0s infinite linear;
+  -webkit-animation: ld-gyro 2s 0s infinite linear;
+  animation: ld-gyro 2s 0s infinite linear;
 }
-.loader12:before {
+.ld-gyro:before {
+  margin: -18px;
   padding: 12px;
   border: 6px solid white;
   border-radius: 30px;
   border-left-color: transparent;
   border-right-color: transparent;
 
-  margin-top: -18px;
-  margin-left: -18px;
-  -webkit-animation: loader12-before 2s 0s infinite linear;
-  animation: loader12-before 2s 0s infinite linear;
+  -webkit-animation: ld-gyro-before 2s 0s infinite linear;
+  animation: ld-gyro-before 2s 0s infinite linear;
 }
-.loader12:after {
+.ld-gyro:after {
+  margin: -10px;
   padding: 8px;
   border: 2px solid white;
   border-radius: 30px;
   border-left-color: transparent;
   border-right-color: transparent;
 
-  margin-top: -10px;
-  margin-left: -10px;
-  -webkit-animation: loader12-before 1s 0s infinite linear;
-  animation: loader12-before 1s 0s infinite linear;
+  -webkit-animation: ld-gyro-before 1s 0s infinite linear;
+  animation: ld-gyro-before 1s 0s infinite linear;
 }
 
-@-webkit-keyframes loader12 {
+@-webkit-keyframes ld-gyro {
   0% { 
     -webkit-transform: rotateZ(0deg); 
     transform: rotateZ(0deg); 
@@ -55,7 +50,7 @@
     transform: rotateZ(360deg); 
   }
 }
-@keyframes loader12 {
+@keyframes ld-gyro {
   0% { 
     -webkit-transform: rotateZ(0deg); 
     transform: rotateZ(0deg); 
@@ -66,7 +61,7 @@
   }
 }
 
-@-webkit-keyframes loader12-before {
+@-webkit-keyframes ld-gyro-before {
   0% { 
     -webkit-transform: rotateZ(0deg) rotateX(0deg); 
     transform: rotateZ(0deg) rotateX(0deg); 
@@ -76,7 +71,7 @@
     transform: rotateZ(-540deg) rotateX(360deg); 
   }
 }
-@keyframes loader12-before {
+@keyframes ld-gyro-before {
   0% { 
     -webkit-transform: rotateZ(0deg) rotateX(0deg); 
     transform: rotateZ(0deg) rotateX(0deg); 

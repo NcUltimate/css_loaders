@@ -1,20 +1,11 @@
-.loader24,
-.loader24:before,
-.loader24:after {
-  position: absolute;
-  content: "";
-
-  top: 50%;
-  left: 50%;
-}
-.loader24 {
+.ld-swipe {
   border: 4px solid white;
   border-bottom: 10px solid white;
   padding: 30px 20px;
   border-radius: 5px;
-  margin: -30px -22px;
+  margin: -44px -24px;
 }
-.loader24:before {
+.ld-swipe:before {
   padding: 4px;
   background: none;
   border-radius: 2px;
@@ -32,10 +23,10 @@
                 36px 26px 0px white,
                 48px 26px 0px rgba(255,255,255,0);
 
-  -webkit-animation: loader24-before 1s 0s infinite ease;
-  animation: loader24-before 1s 0s infinite ease;
+  -webkit-animation: ld-swipe-before 1s 0s infinite ease;
+  animation: ld-swipe-before 1s 0s infinite ease;
 }
-.loader24:after {
+.ld-swipe:after {
   border: 2px solid white;
   padding: 10px 4px;
   border-radius: 8px;
@@ -49,10 +40,10 @@
   -webkit-transform: rotateZ(15deg);
   transform: rotateZ(15deg);
 
-  -webkit-animation: loader24-after 1s 0s infinite ease;
-  animation: loader24-after 1s 0s infinite ease;
+  -webkit-animation: ld-swipe-after 1s 0s infinite ease;
+  animation: ld-swipe-after 1s 0s infinite ease;
 }
-@-webkit-keyframes loader24-before {
+@-webkit-keyframes ld-swipe-before {
   0% {
     box-shadow: 12px 0px 0px white,
                 24px 0px 0px white,
@@ -82,7 +73,7 @@
                 36px 26px 0px white;
   }
 }
-@keyframes loader24-before {
+@keyframes ld-swipe-before {
   0% {
     box-shadow: 12px 0px 0px white,
                 24px 0px 0px white,
@@ -112,7 +103,7 @@
                 36px 26px 0px white;
   }
 }
-@-webkit-keyframes loader24-after {
+@-webkit-keyframes ld-swipe-after {
   0%, 100% {
     -webkit-transform: rotateZ(25deg) translateX(0px);
   }
@@ -120,7 +111,7 @@
     -webkit-transform: rotateZ(-5deg) translateX(-20px);
   }
 }
-@keyframes loader24-after {
+@keyframes ld-swipe-after {
   0%, 100% {
     -webkit-transform: rotateZ(25deg) translateX(0px);
   }

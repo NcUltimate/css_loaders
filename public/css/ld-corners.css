@@ -1,19 +1,17 @@
-
-.loader01 {
+.ld-corners {
   position: absolute;
   left: 50%;
   top: 50%;
   width: 30px;
   height: 30px;
-  margin-left: -23px;
-  margin-top: -23px;
-  border: 8px solid white;
+  margin: -19px;
+  border: 4px solid white;
 
-  -webkit-animation: loader01 2.0s 0s infinite ease-out;
-  animation: loader01 2.0s 0s infinite ease-out;
+  -webkit-animation: ld-corners 2.0s 0s infinite ease-out;
+  animation: ld-corners 2.0s 0s infinite ease-out;
 }
 
-@-webkit-keyframes loader01 {
+@-webkit-keyframes ld-corners {
   0%, 100% { 
     border-radius: 35px;
     -webkit-transform: rotateZ(135deg);
@@ -46,7 +44,7 @@
     transform: rotateZ(495deg);
   }
 }
-@keyframes loader01 {
+@keyframes ld-corners {
   0%, 100% { 
     border-radius: 35px;
     -webkit-transform: rotateZ(135deg);

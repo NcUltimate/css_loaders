@@ -1,0 +1,52 @@
+.ld-splash,
+.ld-splash:after,
+.ld-splash:before {
+  content: "";
+  border: 4px solid white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 0px;
+  margin: -4px;
+  border-radius: 45px;
+  background: none;
+}
+.ld-splash {
+  -webkit-animation: ld-splash 2s 0.4s infinite ease;
+  animation: ld-splash 2s 0.4s infinite ease;
+}
+.ld-splash:before {
+  -webkit-animation: ld-splash 2s 0.2s infinite ease;
+  animation: ld-splash 2s 0.2s infinite ease;
+}
+.ld-splash:after {
+  -webkit-animation: ld-splash 2s 0s infinite ease;
+  animation: ld-splash 2s 0s infinite ease;
+}
+
+@-webkit-keyframes ld-splash {
+  0%, 100% {
+    padding: 0px;
+    margin: -4px;
+    border-width: 4px;
+  }
+  90% {
+    padding: 40px;
+    margin: -42px;
+    border-width: 2px;
+    opacity: 0.8;
+  }
+}
+@keyframes ld-splash {
+  0%, 100% {
+    padding: 0px;
+    margin: -4px;
+    border-width: 4px;
+  }
+  90% {
+    padding: 40px;
+    margin: -42px;
+    border-width: 2px;
+    opacity: 0.8;
+  }
+}

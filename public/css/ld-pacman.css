@@ -1,42 +1,29 @@
-.loader16,
-.loader16:before,
-.loader16:after {
-  position: absolute;
-  content: "";
-
-  top: 50%;
-  left: 50%;
-}
-.loader16 {
+.ld-pacman {
   border: 20px solid white;
   border-radius: 20px;
-
-  margin-left: -20px;
-  margin-top: -20px;
+  margin: -20px;
   z-index: 1;
 }
-.loader16:before {
+.ld-pacman:before {
   padding: 4px;
-  margin-top: -4px;
-  margin-left: -20px;
+  margin: -4px -20px;
   border-radius: 8px;
   z-index: 2;
 
-  -webkit-animation: loader16-before 0.5s 0s infinite linear;
-  animation: loader16-before 0.5s 0s infinite linear;
+  -webkit-animation: ld-pacman-before 0.5s 0s infinite linear;
+  animation: ld-pacman-before 0.5s 0s infinite linear;
 }
-.loader16:after {
+.ld-pacman:after {
   border-right: 20px solid #08a;
   border-top: 20px solid transparent;
   border-bottom: 20px solid transparent;
   z-index: 0;
+  margin: -20px 0px;
 
-  margin-top: -20px;
-
-  -webkit-animation: loader16-after 0.5s 0s infinite ease-in-out;
-  animation: loader16-after 0.5s 0s infinite ease-in-out;
+  -webkit-animation: ld-pacman-after 0.5s 0s infinite ease-in-out;
+  animation: ld-pacman-after 0.5s 0s infinite ease-in-out;
 }
-@-webkit-keyframes loader16-before {
+@-webkit-keyframes ld-pacman-before {
   0% {
     box-shadow: 40px 0px 0px white,
                 60px 0px 0px white,
@@ -58,7 +45,7 @@
                 60px 0px 0px white;
   }
 }
-@keyframes loader16-before {
+@keyframes ld-pacman-before {
   0% {
     box-shadow: 40px 0px 0px white,
                 60px 0px 0px white,
@@ -80,7 +67,7 @@
                 60px 0px 0px white;
   }
 }
-@-webkit-keyframes loader16-after {
+@-webkit-keyframes ld-pacman-after {
   0%, 100% {
     border-right: 20px solid #08a;
     border-top: 20px solid transparent;
@@ -94,7 +81,7 @@
     margin-top: 0px;
   }
 }
-@keyframes loader16-after {
+@keyframes ld-pacman-after {
   0%, 100% {
     border-right: 20px solid #08a;
     border-top: 20px solid transparent;

@@ -1,13 +1,8 @@
-.loader15,
-.loader15:before,
-.loader15:after {
-  position: absolute;
-  content: "";
-
-  top: 10%;
-  left: 50%;
+.ld-chop,
+.ld-chop:before{
+  top: 10%!important;
 }
-.loader15 {
+.ld-chop {
   padding: 8px 20px;
   margin-top: 0px;
   margin-left: -25px;
@@ -19,7 +14,7 @@
   -webkit-transform: rotateY(180deg) rotateZ(-45deg);
   transform: rotateY(180deg) rotateZ(-45deg);
 }
-.loader15:before {
+.ld-chop:before {
   padding: 10px;
   background: white;
   border-radius: 20px;
@@ -30,13 +25,13 @@
   -webkit-transform: rotateY(60deg);
   transform: rotateY(60deg);
 
-  -webkit-animation: loader15-before 0.5s 0s infinite ease;
-  animation: loader15-before 0.5s 0s infinite ease;
+  -webkit-animation: ld-chop-before 0.5s 0s infinite ease;
+  animation: ld-chop-before 0.5s 0s infinite ease;
 }
-.loader15:after {
+.ld-chop:after {
   padding: 8px 30px;
-  left: 0px;
-  top: 0px;
+  left: 0px!important;
+  top: 0px!important;
   margin-left: 10px;
   margin-top: -30px;
   background: white;
@@ -48,10 +43,10 @@
   -webkit-transform: rotateZ(80deg) rotateX(45deg);
   transform: rotateZ(80deg) rotateX(45deg);
 
-  -webkit-animation: loader15-after 0.5s 0s infinite ease;
-  animation: loader15-after 0.5s 0s infinite ease;
+  -webkit-animation: ld-chop-after 0.5s 0s infinite ease;
+  animation: ld-chop-after 0.5s 0s infinite ease;
 }
-@-webkit-keyframes loader15-before {
+@-webkit-keyframes ld-chop-before {
   0%, 20% {
     box-shadow: 0px 0px 0px white;
   }
@@ -60,7 +55,7 @@
   }
 }
 
-@-webkit-keyframes loader15-after {
+@-webkit-keyframes ld-chop-after {
   0%, 100% {
     -webkit-transform: rotateZ(80deg) rotateX(45deg);
     transform: rotateZ(80deg) rotateX(45deg);
@@ -70,7 +65,7 @@
     transform: rotateZ(95deg) rotateX(45deg) translateX(-10px);
   }
 }
-@keyframes loader15-after {
+@keyframes ld-chop-after {
   0%, 100% {
     -webkit-transform: rotateZ(45deg) rotateX(45deg);
     transform: rotateZ(45deg) rotateX(45deg);

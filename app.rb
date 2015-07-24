@@ -5,7 +5,6 @@ require 'json'
 class LoadingCSS < Sinatra::Base
 
   loaders = JSON.parse(open('loaders.json', &:read))
-
   set :port, 9494
 
   get '/' do

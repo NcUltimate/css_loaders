@@ -1,53 +1,50 @@
-.loader02,
-.loader02:after,
-.loader02:before {
+.ld-portal,
+.ld-portal:after,
+.ld-portal:before {
   content: "";
   position: absolute;
   left: 50%;
   top: 50%;
 }
-.loader02 {
+.ld-portal {
   width: 50px;
   height: 50px;
-  margin-left: -25px;
-  margin-top: -28px;
+  margin: -28px -25px;
 
   border-top: 4px solid white;
   border-right: 1px solid transparent;
   border-radius: 30px;
 
-  -webkit-animation: loader02 1.0s 0s infinite linear;
-  animation: loader02 1.0s 0s infinite linear;
+  -webkit-animation: ld-portal 1.0s 0s infinite linear;
+  animation: ld-portal 1.0s 0s infinite linear;
 }
-.loader02:after {
+.ld-portal:after {
   width: 40px;
   height: 40px;
-  margin-left: -20px;
-  margin-top: -19px;
+  margin: -19px -20px;
 
   border-bottom: 2px solid white;
   border-right: 2px solid transparent;
   border-radius: 20px;
 
-  -webkit-animation: loader02-after 1.0s 0s infinite linear;
-  animation: loader02-after 1.0s 0s infinite linear;
+  -webkit-animation: ld-portal-after 1.0s 0s infinite linear;
+  animation: ld-portal-after 1.0s 0s infinite linear;
 }
-.loader02:before {
+.ld-portal:before {
   width: 20px;
   height: 20px;
-  margin-left: -10px;
-  margin-top: -9px;
+  margin: -9px -10px;
 
   border-top: 2px solid white;
   border-right: 2px solid transparent;
   border-radius: 20px;
 
-  -webkit-animation: loader02 0.75s 0s infinite linear;
-  animation: loader02 0.75s 0s infinite linear;
+  -webkit-animation: ld-portal 0.75s 0s infinite linear;
+  animation: ld-portal 0.75s 0s infinite linear;
 }
 
 
-@-webkit-keyframes loader02 {
+@-webkit-keyframes ld-portal {
   0% { 
     -webkit-transform: rotateZ(0deg);
     transform: rotateZ(0deg); 
@@ -57,7 +54,7 @@
     transform: rotateZ(360deg); 
   }
 }
-@keyframes loader02 {
+@keyframes ld-portal {
   0% { 
     -webkit-transform: rotateZ(0deg);
     transform: rotateZ(0deg); 
@@ -68,7 +65,7 @@
   }
 }
 
-@-webkit-keyframes loader02-after {
+@-webkit-keyframes ld-portal-after {
   0% { 
     -webkit-transform: rotateZ(0deg);
     transform: rotateZ(0deg); 
@@ -78,7 +75,7 @@
     transform: rotateZ(-1080deg); 
   }
 }
-@keyframes loader02-after {
+@keyframes ld-portal-after {
   0% { 
     -webkit-transform: rotateZ(0deg);
     transform: rotateZ(0deg); 

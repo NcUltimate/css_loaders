@@ -1,0 +1,73 @@
+.ld-blink {
+  border: 2px solid white;
+  padding: 15px;
+  border-radius: 3px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin: -17px;
+  z-index: 1;
+
+  -webkit-transform: rotateZ(45deg);
+  transform: rotateZ(45deg);
+
+  -webkit-animation: ld-blink 4s 0s infinite linear;
+  animation: ld-blink 4s 0s infinite linear;
+}
+.ld-blink:before {
+  border: 1px solid white;
+  padding: 8px;
+  border-radius: 20px;
+  margin: -9px;
+
+  -webkit-animation: ld-blink-before 2s 0s infinite linear;
+  animation: ld-blink-before 2s 0s infinite linear;
+}
+.ld-blink:after {
+  padding: 3px;
+  background: white;
+  margin: -3px;
+  border-radius: 8px;
+  -webkit-animation: ld-blink-after 2s 0s infinite linear;
+  animation: ld-blink-after 2s 0s infinite linear;
+}
+@-webkit-keyframes ld-blink {
+  2%, 62% {
+    -webkit-transform: rotateZ(85deg) rotateX(90deg) rotateY(-90deg);
+    transform: rotateZ(85deg) rotateX(90deg) rotateY(-90deg);
+  }
+  0%, 4%, 60%, 64% {
+    -webkit-transform: rotateZ(45deg) rotateX(0deg) rotateY(0deg);
+    transform: rotateZ(45deg) rotateX(0deg) rotateY(0deg);
+  }
+}
+@keyframes ld-blink {
+  2%, 62% {
+    -webkit-transform: rotateZ(85deg) rotateX(90deg) rotateY(-90deg);
+    transform: rotateZ(85deg) rotateX(90deg) rotateY(-90deg);
+  }
+  0%, 4%, 60%, 64% {
+    -webkit-transform: rotateZ(45deg) rotateX(0deg) rotateY(0deg);
+    transform: rotateZ(45deg) rotateX(0deg) rotateY(0deg);
+  }
+}
+@-webkit-keyframes ld-blink-before {
+  0%, 39%, 81%, 100% { margin: -9px; }
+  40%, 60% { margin: -2px -7px; }
+  61%, 80% { margin: -12px -3px; }
+}
+@keyframes ld-blink-before {
+  0%, 39%, 81%, 100% { margin: -9px; }
+  40%, 60% { margin: -2px -7px; }
+  61%, 80% { margin: -12px -3px; }
+}
+@-webkit-keyframes ld-blink-after {
+  0%, 39%, 81%, 100% { margin: -3px; }
+  40%, 60% { margin: 4px -1px; }
+  61%, 80% { margin: -6px 3px; }
+}
+@keyframes ld-blink-after {
+  0%, 39%, 81%, 100% { margin: -3px; }
+  40%, 60% { margin: 4px -1px; }
+  61%, 80% { margin: -6px 3px; }
+}
+
