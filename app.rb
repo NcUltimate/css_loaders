@@ -8,9 +8,13 @@ class LoadingCSS < Sinatra::Base
   set :port, 9494
 
   get '/' do
+    demo_classes = %w(ld-portal ld-atom ld-clock)
     demo_sizes = %w(small normal large)
-    haml :index, :locals => {:num_loaders => loaders.count, 
-                            :loaders => loaders['loaders'],
-                            :sizes => demo_sizes}
+    
+    locals = {
+      :loaders => loaders['loaders'],
+      :demos => demo_classes.zip(demo_sizes)
+    }
+    haml :index, :locals => locals
   end
 end

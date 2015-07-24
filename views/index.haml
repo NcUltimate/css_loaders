@@ -10,18 +10,20 @@
       .header-section
         %img{:src => 'assets/devices.png', :height => 400}
         .demo-loaders
-          -loaders[0..-3].sample(3).each_with_index do |loader, idx|
-            .loader{:class => sizes[idx]}
+          -demos.each do |demo_class, demo_size|
+            .loader{:class => demo_size}
               .container
-                %div{:class => "ld ld-#{loader['name'].downcase}" }
+                %div{:class => "ld #{demo_class}" }
     .loaders
-      -loaders.each_with_index do |loader, k|
-        .loader
-          .container
-            %div{:class => "ld ld-#{loader['name'].downcase}" }
-          .info
-            %span.date= loader['date']
-            %span.name= loader['name']
-      -(7 - ((loaders.count + 6) % 6)).times do 
-        .loader
-          .container
+      -loaders.each do |loader_set|
+        .section
+          %h1= loader_set['theme']
+          - loader_set['loaders'].each do |loader|
+            .loader
+              .name= loader['name']
+              .class= loader['class']
+              .container
+                %div{:class => "ld #{loader['class']}" }
+          / -(7 - ((loaders.count + 6) % 6)).times do 
+          /   .loader
+          /     .container

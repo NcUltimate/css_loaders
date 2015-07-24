@@ -1,6 +1,7 @@
 .ld-balloon {
   background: white;
   padding: 20px;
+  margin: 25px 0px;
   border-radius: 20px;
   border-bottom-left-radius: 5px;
   z-index: 1;
@@ -21,7 +22,7 @@
 @-webkit-keyframes ld-balloon {
   0% {
     padding: 0px;
-    margin: 20px 0px;
+    margin: 25px 0px;
     -webkit-transform: rotateZ(-45deg);
     transform: rotateZ(-45deg);
   }
@@ -33,7 +34,7 @@
   }
   100% {
     padding: 0px;
-    margin: -50px 20px;
+    margin: -40px 20px;
     -webkit-transform: rotateZ(-720deg);
     transform: rotateZ(-720deg);
   }
@@ -41,7 +42,7 @@
 @keyframes ld-balloon {
   0% {
     padding: 0px;
-    margin: 20px 0px;
+    margin: 25px 0px;
     -webkit-transform: rotateZ(-45deg);
     transform: rotateZ(-45deg);
   }
@@ -53,7 +54,7 @@
   }
   100% {
     padding: 0px;
-    margin: -50px 20px;
+    margin: -40px 20px;
     -webkit-transform: rotateZ(-720deg);
     transform: rotateZ(-720deg);
   }

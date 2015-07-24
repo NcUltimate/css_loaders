@@ -19,7 +19,7 @@ body {
 .header {
   width: 100%;
   margin: 0px;
-  padding: 50px;
+  padding: 50px 20px;
   box-sizing: border-box;
   overflow: hidden;
 
@@ -46,12 +46,26 @@ body {
   width: 25%;
 }
 .header .header-section img {
-  margin-left: 26px;
+  margin-left: 41px;
 }
 
 /***********************************
           MAIN LOADERS
 ***********************************/
+.section {
+  padding-top: 20px;
+}
+.section:first-child {
+  padding-top: 0px;
+}
+.section:last-child {
+  padding-bottom: 100px;
+}
+.section h1 {
+  color: white;
+  text-shadow: 0px 1px 1px gray;
+  border-bottom: 1px solid #ccc;
+}
 .loaders {
   padding: 20px;
   width: 100%;
@@ -60,33 +74,23 @@ body {
   box-sizing: border-box;
 }
 .container {
-  padding: 30px;
+  padding: 50px;
   position: relative;
   margin: auto;
 }
 .loader {
-  position: relative;
-  padding: 40px;
-  padding-top: 50px;
-  box-sizing: border-box;
-
   display: inline-block;
-  overflow: hidden;
+  position: relative;
+  padding: 10px 0px;
 }
-.info {
-  position: absolute;
-  top: 2px;
-  left: 2px;
-  width: 100%;
-  font-style: italic;
+.name, .class {
   text-align: center;
 }
-.info .date {
+.class {
   font-size: 10px;
-  margin-left: -10px;
-  color: #eee;
+  color: #ccc;
 }
-.info .name {
+.name {
   font-size: 14px;
   color: white;
 }
@@ -98,22 +102,22 @@ body {
   position: absolute;
 }
 .demo-loaders .loader:nth-child(1) {
-  top: 215px;
-  left: 123px;
+  top: 231px;
+  left: 158px;
 }
 .demo-loaders .loader:nth-child(2) {
-  top: 180px;
-  left: 246px;
+  top: 200px;
+  left: 281px;
 }
 .demo-loaders .loader:nth-child(3) {
-  top: 100px;
-  left: 500px;
+  top: 110px;
+  left: 530px;
 }
 
 /***********************************
             MEDIA QUERIES
 ***********************************/
-@media(max-width: 800px) {
+@media(max-width: 1000px) {
   .header .header-section {
     display: block;
     width: 100%!important;
@@ -124,7 +128,7 @@ body {
   .header p {
     width: 100%;
   }
-  .loaders {
-   text-align: center;
+  .section {
+    text-align: justify;
   }
 }

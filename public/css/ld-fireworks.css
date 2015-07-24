@@ -1,7 +1,7 @@
 .ld-fireworks,
 .ld-fireworks:before,
 .ld-fireworks:after {
-  top: 100%!important;
+  top: 80%!important;
   margin: -2px;
   padding: 0px;
   border: 2px solid white;

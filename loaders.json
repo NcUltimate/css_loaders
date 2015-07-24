@@ -1,32 +1,62 @@
 {
-  "loaders":[
-    {"date": "07-05", "name":"Corners"},
-    {"date": "07-06", "name":"Portal"},
-    {"date": "07-07", "name":"Cradle"},
-    {"date": "07-08", "name":"Clock"},
-    {"date": "07-09", "name":"Splash"},
-    {"date": "07-10", "name":"Paddle"},
-    {"date": "07-11", "name":"Atom"},
-    {"date": "07-12", "name":"Hourglass"},
-    {"date": "07-13", "name":"Railroad"},
-    {"date": "07-14", "name":"Swoosh"},
-    {"date": "07-15", "name":"Fieldgoal"},
-    {"date": "07-16", "name":"Gyro"},
-    {"date": "07-17", "name":"Fireworks"},
-    {"date": "07-18", "name":"Keypad"},
-    {"date": "07-19", "name":"Chop"},
-    {"date": "07-20", "name":"Pacman"},
-    {"date": "07-21", "name":"Blink"},
-    {"date": "07-22", "name":"Flip"},
-    {"date": "07-23", "name":"Balloon"},
-    {"date": "07-24", "name":"Speedometer"},
-    {"date": "07-25", "name":"Thermometer"},
-    {"date": "07-26", "name":"Bounce"},
-    {"date": "07-27", "name":"Disk"},
-    {"date": "07-28", "name":"Swipe"},
-    {"date": "07-29", "name":"Flicker"},
-    {"date": "07-30", "name":"Bubble"},
-    {"date": "07-31", "name":"Pong"},
-    {"date": "08-01", "name":"Magnify"}
+  "loaders" : [
+    { 
+        "theme" : "Generic",
+        "loaders" : [
+            {"name":"Corners", "class":"ld-corners"},
+            {"name":"Portal", "class":"ld-portal"},
+            {"name":"Splash", "class":"ld-splash"},
+            {"name":"Flip", "class":"ld-flip"},
+            {"name":"Gyro", "class":"ld-gyro"}
+        ]
+    },
+    { 
+        "theme" : "Devices",
+        "loaders" : [
+            {"name":"Clock", "class":"ld-clock"},
+            {"name":"Hourglass", "class":"ld-hourglass"},
+            {"name":"Keypad", "class":"ld-keypad"},
+            {"name":"Speedometer", "class":"ld-speedometer"},
+            {"name":"Thermometer", "class":"ld-thermometer"},
+            {"name":"Disk", "class":"ld-disk"},
+            {"name":"Swipe", "class":"ld-swipe"},
+            {"name":"Magnify", "class":"ld-magnify"}
+        ]
+    },
+    {
+        "theme" : "Science",
+        "loaders" : [
+            {"name":"Cradle", "class":"ld-cradle"},
+            {"name":"Atom", "class":"ld-atom"},
+            {"name":"Flicker", "class":"ld-flicker"}
+        ]
+    },
+    {
+        "theme" : "Transportation",
+        "loaders" : [
+            {"name":"Railroad", "class":"ld-railroad"}
+        ]
+    },
+    { 
+        "theme" : "Sports",
+        "loaders" : [
+            {"name":"Paddle", "class":"ld-paddle"},
+            {"name":"Swoosh", "class":"ld-swoosh"},
+            {"name":"Fieldgoal", "class":"ld-fieldgoal"}
+        ]
+    },
+    {
+        "theme" : "Fun",
+        "loaders" : [
+            {"name":"Fireworks", "class":"ld-fireworks"},
+            {"name":"Chop", "class":"ld-chop"},
+            {"name":"Pacman", "class":"ld-pacman"},
+            {"name":"Balloon", "class":"ld-balloon"},
+            {"name":"Bounce", "class":"ld-bounce"},
+            {"name":"Blink", "class":"ld-blink"},
+            {"name":"Bubble", "class":"ld-bubble"},
+            {"name":"Pong", "class":"ld-pong"}
+        ]
+    }
   ]
 }
