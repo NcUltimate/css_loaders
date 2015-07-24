@@ -13,13 +13,10 @@
   margin: -30px;
   border-radius: 30px;
   border: 4px solid white;
+  border-bottom: 4px solid transparent;
 }
 .loader20:before {
 
-  border-bottom: 30px solid #08a;
-  border-left: 50px solid transparent;
-  border-right: 50px solid transparent;
-  margin: 0px -50px;
 }
 .loader20:after {
   padding: 12px 2px;

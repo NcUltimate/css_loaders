@@ -22,7 +22,7 @@
 @import url('loader22.css');
 @import url('loader23.css');
 @import url('loader24.css');
-/*@import url('loader25.css');*/
+@import url('loader25.css');
 
 .loader.small {
   -webkit-transform: scale(0.5);
