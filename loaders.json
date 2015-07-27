@@ -10,7 +10,7 @@
             {"name":"Jump", "class":"ld-blank"},
             {"name":"Pulse", "class":"ld-pulse"},
             {"name":"Bars", "class":"ld-bars"},
-            {"name":"Spin", "class":"ld-blank"},
+            {"name":"Spin", "class":"ld-spin"},
             {"name":"Roundup", "class":"ld-blank"},
             {"name":"Gyro", "class":"ld-gyro"}
         ]

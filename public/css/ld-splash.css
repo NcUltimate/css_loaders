@@ -1,13 +1,9 @@
 .ld-splash,
 .ld-splash:after,
 .ld-splash:before {
-  content: "";
-  border: 4px solid white;
-  position: absolute;
-  top: 50%;
-  left: 50%;
+  border: 2px solid white;
   padding: 0px;
-  margin: -4px;
+  margin: -2px;
   border-radius: 45px;
   background: none;
 }
@@ -27,26 +23,22 @@
 @-webkit-keyframes ld-splash {
   0%, 100% {
     padding: 0px;
-    margin: -4px;
-    border-width: 4px;
+    margin: -2px;
   }
   90% {
     padding: 30px;
     margin: -32px;
-    border-width: 2px;
     opacity: 0.8;
   }
 }
 @keyframes ld-splash {
   0%, 100% {
     padding: 0px;
-    margin: -4px;
-    border-width: 4px;
+    margin: -2px;
   }
   90% {
     padding: 30px;
     margin: -32px;
-    border-width: 2px;
     opacity: 0.8;
   }
 }
