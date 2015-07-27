@@ -3,11 +3,6 @@
 .ld-atom:after {
   background: white;
   border-radius: 50px;
-  position: absolute;
-
-  content: "";
-  left: 50%;
-  top: 50%;
 }
 .ld-atom {
   padding: 8px;

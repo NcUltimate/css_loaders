@@ -1,0 +1,32 @@
+.ld-inspect {
+  padding: 15px;
+  border: 2px solid white;
+  border-radius: 20px;
+  margin: -25px -26px;
+
+  -webkit-transform-origin: left top;
+  transform-origin: left top;
+
+  -webkit-transform: rotateZ(-45deg);
+  transform: rotateZ(-45deg);
+
+  -webkit-animation: ld-inspect 2s 0s infinite ease-out;
+  animation: ld-inspect 2s 0s infinite ease-out;
+}
+.ld-inspect:before {
+  background: white;
+  padding: 10px 2px;
+  margin: 15px -2px;
+  border-radius: 2px;
+}
+
+@-webkit-keyframes ld-inspect {
+  0%, 100%{ margin: -25px -26px; }
+  33% { margin: 0px -40px; }
+  66%{ margin: 0px -15px; }
+}
+@keyframes ld-inspect {
+  0%, 100%{ margin: -25px -26px; }
+  33% { margin: 0px -40px; }
+  66%{ margin: 0px -15px; }
+}

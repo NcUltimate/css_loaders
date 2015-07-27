@@ -1,0 +1,12 @@
+.ld-blank:after {
+  content: "Coming Soon"!important;
+  color: white;
+  opacity: 0.5;
+
+  padding: 20px;
+  margin: -40px;
+
+  font-style: italic;
+  font-size: 12px;
+  text-align: center;
+}

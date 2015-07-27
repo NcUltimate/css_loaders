@@ -7,11 +7,16 @@
             {"name":"Portal", "class":"ld-portal"},
             {"name":"Splash", "class":"ld-splash"},
             {"name":"Flip", "class":"ld-flip"},
+            {"name":"Jump", "class":"ld-blank"},
+            {"name":"Pulse", "class":"ld-pulse"},
+            {"name":"Bars", "class":"ld-bars"},
+            {"name":"Spin", "class":"ld-blank"},
+            {"name":"Roundup", "class":"ld-blank"},
             {"name":"Gyro", "class":"ld-gyro"}
         ]
     },
     { 
-        "theme" : "Devices",
+        "theme" : "Gadgets",
         "loaders" : [
             {"name":"Clock", "class":"ld-clock"},
             {"name":"Hourglass", "class":"ld-hourglass"},
@@ -20,7 +25,8 @@
             {"name":"Thermometer", "class":"ld-thermometer"},
             {"name":"Disk", "class":"ld-disk"},
             {"name":"Swipe", "class":"ld-swipe"},
-            {"name":"Magnify", "class":"ld-magnify"}
+            {"name":"Speaker", "class":"ld-blank"},
+            {"name":"Inspect", "class":"ld-inspect"}
         ]
     },
     {
@@ -34,7 +40,8 @@
     {
         "theme" : "Transportation",
         "loaders" : [
-            {"name":"Railroad", "class":"ld-railroad"}
+            {"name":"Railroad", "class":"ld-railroad"},
+            {"name":"Speeding", "class":"ld-blank"}
         ]
     },
     { 
@@ -42,6 +49,7 @@
         "loaders" : [
             {"name":"Paddle", "class":"ld-paddle"},
             {"name":"Swoosh", "class":"ld-swoosh"},
+            {"name":"Putt", "class":"ld-blank"},
             {"name":"Fieldgoal", "class":"ld-fieldgoal"}
         ]
     },
@@ -54,8 +62,10 @@
             {"name":"Balloon", "class":"ld-balloon"},
             {"name":"Bounce", "class":"ld-bounce"},
             {"name":"Blink", "class":"ld-blink"},
-            {"name":"Bubble", "class":"ld-bubble"},
-            {"name":"Pong", "class":"ld-pong"}
+            {"name":"Bubble", "class":"ld-blank"},
+            {"name":"Heartbeat", "class":"ld-blank"},
+            {"name":"House", "class":"ld-blank"},
+            {"name":"Pong", "class":"ld-blank"}
         ]
     }
   ]
