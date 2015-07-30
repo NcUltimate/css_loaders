@@ -1,0 +1,41 @@
+.ld-spin-faded {
+  padding: 4px;
+  background: white;
+  border-radius: 8px;
+  margin: -20px -10px;
+
+  box-shadow: 12px 0px 0px rgba(255,255,255, 0),
+              20px 8px 0px rgba(255,255,255, 0.1),
+              20px 20px 0px rgba(255,255,255, 0.25),
+              12px 28px 0px rgba(255,255,255, 0.4),
+              0px 28px 0px rgba(255,255,255, 0.55),
+              -8px 20px 0px rgba(255,255,255, 0.7),
+              -8px 8px 0px rgba(255,255,255, 0.85);
+
+  -webkit-transform-origin: 140% 220%;
+  transform-origin: 140% 220%;
+  
+  -webkit-animation: ld-spin-faded 1s 0s infinite linear;
+  animation: ld-spin-faded 1s 0s infinite linear;
+}
+
+@-webkit-keyframes ld-spin-faded {
+  0% {
+    -webkit-transform: rotateZ(0deg);
+    transform: rotateZ(0deg);
+  }
+  100% {
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+  }
+}
+@keyframes ld-spin-faded {
+  0% {
+    -webkit-transform: rotateZ(0deg);
+    transform: rotateZ(0deg);
+  }
+  100% {
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+  }
+}

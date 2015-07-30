@@ -1,4 +1,4 @@
-.ld-spin {
+.ld-spin-solid {
   padding: 4px;
   background: white;
   border-radius: 8px;
@@ -15,11 +15,11 @@
   -webkit-transform-origin: 140% 220%;
   transform-origin: 140% 220%;
   
-  -webkit-animation: ld-spin 2s 0s infinite linear;
-  animation: ld-spin 2s 0s infinite linear;
+  -webkit-animation: ld-spin-solid 2s 0s infinite linear;
+  animation: ld-spin-solid 2s 0s infinite linear;
 }
 
-@-webkit-keyframes ld-spin {
+@-webkit-keyframes ld-spin-solid {
   0% {
     -webkit-transform: rotateZ(0deg);
     transform: rotateZ(0deg);
@@ -29,7 +29,7 @@
     transform: rotateZ(360deg);
   }
 }
-@keyframes ld-spin {
+@keyframes ld-spin-solid {
   0% {
     -webkit-transform: rotateZ(0deg);
     transform: rotateZ(0deg);

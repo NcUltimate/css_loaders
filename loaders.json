@@ -8,10 +8,12 @@
             {"name":"Splash", "class":"ld-splash"},
             {"name":"Flip", "class":"ld-flip"},
             {"name":"Jump", "class":"ld-blank"},
-            {"name":"Pulse", "class":"ld-pulse"},
+            {"name":"Linear Pulse", "class":"ld-pulse-linear"},
             {"name":"Bars", "class":"ld-bars"},
-            {"name":"Spin", "class":"ld-spin"},
-            {"name":"Roundup", "class":"ld-blank"},
+            {"name":"Solid Spin", "class":"ld-spin-solid"},
+            {"name":"Faded Spin", "class":"ld-spin-faded"},
+            {"name":"Radial Pulse", "class":"ld-pulse-radial"},
+            {"name":"Roundup", "class":"ld-roundup"},
             {"name":"Gyro", "class":"ld-gyro"}
         ]
     },
