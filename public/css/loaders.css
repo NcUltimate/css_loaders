@@ -10,6 +10,7 @@
 @import url('ld-disk.css');
 @import url('ld-fieldgoal.css');
 @import url('ld-fireworks.css');
+@import url('ld-flashcards.css');
 @import url('ld-flicker.css');
 @import url('ld-flip.css');
 @import url('ld-gyro.css');
@@ -22,6 +23,9 @@
 @import url('ld-pulse.css');
 @import url('ld-railroad.css');
 @import url('ld-roundup.css');
+@import url('ld-slideshow.css');
+@import url('ld-slide-left.css');
+@import url('ld-slide-right.css');
 @import url('ld-speedometer.css');
 @import url('ld-spin.css');
 @import url('ld-splash.css');

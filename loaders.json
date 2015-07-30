@@ -16,7 +16,7 @@
         ]
     },
     { 
-        "theme" : "Gadgets",
+        "theme" : "Science & Gadgets",
         "loaders" : [
             {"name":"Clock", "class":"ld-clock"},
             {"name":"Hourglass", "class":"ld-hourglass"},
@@ -26,22 +26,11 @@
             {"name":"Disk", "class":"ld-disk"},
             {"name":"Swipe", "class":"ld-swipe"},
             {"name":"Speaker", "class":"ld-blank"},
-            {"name":"Inspect", "class":"ld-inspect"}
-        ]
-    },
-    {
-        "theme" : "Science",
-        "loaders" : [
+            {"name":"Inspect", "class":"ld-inspect"},
             {"name":"Cradle", "class":"ld-cradle"},
             {"name":"Atom", "class":"ld-atom"},
-            {"name":"Flicker", "class":"ld-flicker"}
-        ]
-    },
-    {
-        "theme" : "Transportation",
-        "loaders" : [
-            {"name":"Railroad", "class":"ld-railroad"},
-            {"name":"Speeding", "class":"ld-blank"}
+            {"name":"Flicker", "class":"ld-flicker"},
+            {"name":"Battery", "class":"ld-battery"}
         ]
     },
     { 
@@ -66,6 +55,17 @@
             {"name":"Heartbeat", "class":"ld-blank"},
             {"name":"House", "class":"ld-blank"},
             {"name":"Pong", "class":"ld-blank"}
+        ]
+    },
+    {
+        "theme" : "Miscellaneous",
+        "loaders" : [
+            {"name":"Railroad", "class":"ld-railroad"},
+            {"name":"Speeding", "class":"ld-blank"},
+            {"name":"Slide Left", "class":"ld-slide-left"},
+            {"name":"Flashcards", "class":"ld-flashcards"},
+            {"name":"Slide Right", "class":"ld-slide-right"},
+            {"name":"Slideshow", "class":"ld-slideshow"}
         ]
     }
   ]
