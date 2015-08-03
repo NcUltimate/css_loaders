@@ -1,7 +1,7 @@
 .ld-balloon {
   background: white;
   padding: 20px;
-  margin: 25px 0px;
+  margin: 35px 0px;
   border-radius: 20px;
   border-bottom-left-radius: 5px;
   z-index: 1;
@@ -22,13 +22,13 @@
 @-webkit-keyframes ld-balloon {
   0% {
     padding: 0px;
-    margin: 25px 0px;
+    margin: 35px 0px;
     -webkit-transform: rotateZ(-45deg);
     transform: rotateZ(-45deg);
   }
   20%, 25% {
     padding: 20px;
-    margin: -20px -10px;
+    margin: -10px -10px;
     -webkit-transform: rotateZ(-45deg);
     transform: rotateZ(-45deg);
   }

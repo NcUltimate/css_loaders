@@ -1,10 +1,6 @@
-.ld-keypad,
-.ld-keypad:before{
-  top: 10%!important;
-}
 .ld-keypad {
   padding: 1px 21px;
-  margin: 10px -20px;
+  margin: -20px;
   background: white;
   box-shadow: 0px 15px 0px white,
               0px 30px 0px white,
