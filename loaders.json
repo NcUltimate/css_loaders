@@ -7,7 +7,6 @@
             {"name":"Portal", "class":"ld-portal"},
             {"name":"Splash", "class":"ld-splash"},
             {"name":"Flip", "class":"ld-flip"},
-            {"name":"Jump", "class":"ld-blank"},
             {"name":"Linear Pulse", "class":"ld-pulse-linear"},
             {"name":"Bars", "class":"ld-bars"},
             {"name":"Solid Spin", "class":"ld-spin-solid"},
@@ -40,7 +39,7 @@
         "loaders" : [
             {"name":"Paddle", "class":"ld-paddle"},
             {"name":"Swoosh", "class":"ld-swoosh"},
-            {"name":"Putt", "class":"ld-blank"},
+            {"name":"Putt", "class":"ld-putt"},
             {"name":"Fieldgoal", "class":"ld-fieldgoal"}
         ]
     },
@@ -54,8 +53,8 @@
             {"name":"Bounce", "class":"ld-bounce"},
             {"name":"Blink", "class":"ld-blink"},
             {"name":"Bubble", "class":"ld-blank"},
-            {"name":"Heartbeat", "class":"ld-blank"},
-            {"name":"House", "class":"ld-blank"},
+            {"name":"Heartbeat", "class":"ld-heartbeat"},
+            {"name":"House", "class":"ld-house"},
             {"name":"Pong", "class":"ld-blank"}
         ]
     },

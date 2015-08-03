@@ -1,0 +1,50 @@
+.ld-heartbeat,
+.ld-heartbeat:after,
+.ld-heartbeat:before {
+  padding: 10px;
+  background: white;
+}
+.ld-heartbeat {
+  -webkit-transform: rotateZ(-135deg);
+  margin: -10px -10px;
+
+  -webkit-animation: ld-heartbeat 1s 0s infinite linear;
+  animation: ld-heartbeat 1s 0s infinite linear;
+}
+.ld-heartbeat:after {
+  border-radius: 10px;
+  margin: 0px -10px;
+}
+.ld-heartbeat:before {
+  border-radius: 10px;
+  margin: -10px 0px;
+}
+
+@-webkit-keyframes ld-heartbeat {
+  0%, 15%, 45%, 75%, 100% {
+    -webkit-transform: rotateZ(-135deg) scale(1);
+    transform: rotateZ(-135deg) scale(1);
+  }
+  30% {
+    -webkit-transform: rotateZ(-135deg) scale(1.2);
+    transform: rotateZ(-135deg) scale(1.2);
+  }
+  60% {
+    -webkit-transform: rotateZ(-135deg) scale(1.4);
+    transform: rotateZ(-135deg) scale(1.4);
+  }
+}
+@keyframes ld-heartbeat {
+  0%, 15%, 45%, 75%, 100% {
+    -webkit-transform: rotateZ(-135deg) scale(1);
+    transform: rotateZ(-135deg) scale(1);
+  }
+  30% {
+    -webkit-transform: rotateZ(-135deg) scale(1.2);
+    transform: rotateZ(-135deg) scale(1.2);
+  }
+  60% {
+    -webkit-transform: rotateZ(-135deg) scale(1.4);
+    transform: rotateZ(-135deg) scale(1.4);
+  }
+}
