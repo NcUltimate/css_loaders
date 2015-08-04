@@ -1,25 +1,73 @@
-.loader.small {
-  -webkit-transform: scale(0.5);
-  transform: scale(0.5);
+.ld.ease,
+.ld.ease:before,
+.ld.ease:after {
+  -webkit-animation-timing-function: ease!important;
+  animation-timing-function: ease!important;
+}
+.ld.linear,
+.ld.linear:before,
+.ld.linear:after {
+  -webkit-animation-timing-function: linear!important;
+  animation-timing-function: linear!important;
 }
 
-.loader.large {
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5);
+.ld.slowest,
+.ld.slowest:before,
+.ld.slowest:after {
+  -webkit-animation-duration: 4s;
+  animation-duration: 4s;
 }
-.loader.xlarge {
-  -webkit-transform: scale(2);
-  transform: scale(2);
+.ld.slow,
+.ld.slow:before,
+.ld.slow:after {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+}
+.ld.moderate,
+.ld.moderate:before,
+.ld.moderate:after {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+}
+.ld.fast,
+.ld.fast:before,
+.ld.fast:after {
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+}
+.ld.fastest,
+.ld.fastest:before,
+.ld.fastest:after {
+  -webkit-animation-duration: 0.25s;
+  animation-duration: 0.25s;
 }
 
-.loader.xxlarge {
-  -webkit-transform: scale(5);
-  transform: scale(5);
-}
-
-.ld, .ld:before, .ld:after {
+.ld, 
+.ld:before, 
+.ld:after {
   position: absolute;
   content: "";
   top: 50%;
   left: 50%;
+}
+
+@-webkit-keyframes ld-generic-spin {
+  0% {
+    -webkit-transform: rotateZ(0deg);
+    transform: rotateZ(0deg);
+  }
+  100% {
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+  }
+}
+@keyframes ld-generic-spin {
+  0% {
+    -webkit-transform: rotateZ(0deg);
+    transform: rotateZ(0deg);
+  }
+  100% {
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+  }
 }

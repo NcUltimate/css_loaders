@@ -2,10 +2,10 @@
   padding: 4px;
   background: white;
   border-radius: 8px;
-  margin: -20px -4px;
+  margin: -25px -4px;
 
-  -webkit-transform-origin: center 250%;
-  transform-origin: center 250%;
+  -webkit-transform-origin: center 350%;
+  transform-origin: center 350%;
   
   -webkit-animation: ld-roundup 1.25s 0s infinite ease;
   animation: ld-roundup 1.25s 0s infinite ease;
@@ -23,8 +23,8 @@
                 0px 0px 0px white;
   }
   25%, 30% {
-    box-shadow: -8px 4px 0px white,
-                -12px 12px 0px white;
+    box-shadow: -10px 6px 0px white,
+                -15px 15px 0px white;
   }
   90%, 100% {
     -webkit-transform: rotateZ(360deg);

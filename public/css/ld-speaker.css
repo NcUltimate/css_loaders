@@ -1,4 +1,4 @@
-.ld-speedometer {
+.ld-speaker {
   background: none;
   padding: 26px;
   margin: -30px;
@@ -6,7 +6,10 @@
   border: 4px solid white;
   border-bottom: 4px solid transparent;
 }
-.ld-speedometer:after {
+.ld-speaker:before {
+
+}
+.ld-speaker:after {
   padding: 12px 2px;
   margin: -20px -2px;
   border-radius: 5px;
@@ -19,10 +22,10 @@
   -webkit-transform: rotateZ(-95deg);
   transform: rotateZ(-95deg);
 
-  -webkit-animation: ld-speedometer-after 3s 0s infinite ease;
-  animation: ld-speedometer-after 3s 0s infinite ease;
+  -webkit-animation: ld-speaker-after 3s 0s infinite ease;
+  animation: ld-speaker-after 3s 0s infinite ease;
 }
-@-webkit-keyframes ld-speedometer-after {
+@-webkit-keyframes ld-speaker-after {
   0%, 15% {
     -webkit-transform: rotateZ(-85deg);
     transform: rotateZ(-85deg);
@@ -40,7 +43,7 @@
     transform: rotateZ(-85deg);
   }
 }
-@keyframes ld-speedometer-after {
+@keyframes ld-speaker-after {
   0%, 15% {
     -webkit-transform: rotateZ(-85deg);
     transform: rotateZ(-85deg);

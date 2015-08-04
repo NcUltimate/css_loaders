@@ -26,16 +26,20 @@
 @import url('ld-putt.css');
 @import url('ld-pulse-linear.css');
 @import url('ld-pulse-radial.css');
+@import url('ld-pulse-sector.css');
 @import url('ld-railroad.css');
+@import url('ld-refresh.css');
 @import url('ld-roundup.css');
 @import url('ld-slideshow.css');
 @import url('ld-slide-left.css');
 @import url('ld-slide-right.css');
 @import url('ld-speedometer.css');
 @import url('ld-spin-faded.css');
+@import url('ld-spin-sector.css');
 @import url('ld-spin-solid.css');
 @import url('ld-splash.css');
 @import url('ld-swipe.css');
+@import url('ld-sync.css');
 @import url('ld-swoosh.css');
 @import url('ld-thermometer.css');
 

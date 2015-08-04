@@ -13,7 +13,11 @@
             {"name":"Faded Spin", "class":"ld-spin-faded"},
             {"name":"Radial Pulse", "class":"ld-pulse-radial"},
             {"name":"Roundup", "class":"ld-roundup"},
-            {"name":"Gyro", "class":"ld-gyro"}
+            {"name":"Gyro", "class":"ld-gyro"},
+            {"name":"Sync", "class":"ld-sync"},
+            {"name":"Refresh", "class":"ld-refresh"},
+            {"name":"Sector Spin", "class":"ld-spin-sector"},
+            {"name":"Sector Pulse", "class":"ld-pulse-sector"}
         ]
     },
     { 

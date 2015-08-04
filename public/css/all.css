@@ -114,6 +114,25 @@ body {
   left: 530px;
 }
 
+.loader.small {
+  -webkit-transform: scale(0.5);
+  transform: scale(0.5);
+}
+
+.loader.large {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+.loader.xlarge {
+  -webkit-transform: scale(2);
+  transform: scale(2);
+}
+
+.loader.xxlarge {
+  -webkit-transform: scale(5);
+  transform: scale(5);
+}
+
 /***********************************
             MEDIA QUERIES
 ***********************************/
