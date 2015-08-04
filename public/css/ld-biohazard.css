@@ -1,0 +1,10 @@
+.ld-biohazard:before {
+  content: "☣"!important;
+  color: white;
+  font-size: 60px;
+  line-height: 0px;
+  margin: 0px -20px;
+
+  -webkit-animation: ld-generic-throb 0.5s 0s infinite linear;
+  animation: ld-generic-throb 0.5s 0s infinite linear;
+}

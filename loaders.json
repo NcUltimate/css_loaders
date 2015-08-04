@@ -38,15 +38,6 @@
             {"name":"Battery", "class":"ld-battery"}
         ]
     },
-    { 
-        "theme" : "Sports",
-        "loaders" : [
-            {"name":"Paddle", "class":"ld-paddle"},
-            {"name":"Swoosh", "class":"ld-swoosh"},
-            {"name":"Putt", "class":"ld-putt"},
-            {"name":"Fieldgoal", "class":"ld-fieldgoal"}
-        ]
-    },
     {
         "theme" : "Fun",
         "loaders" : [
@@ -59,7 +50,30 @@
             {"name":"Bubble", "class":"ld-blank"},
             {"name":"Heartbeat", "class":"ld-heartbeat"},
             {"name":"House", "class":"ld-house"},
-            {"name":"Pong", "class":"ld-blank"}
+            {"name":"Pong", "class":"ld-blank"},
+            {"name":"Paddle", "class":"ld-paddle"},
+            {"name":"Swoosh", "class":"ld-swoosh"},
+            {"name":"Putt", "class":"ld-putt"},
+            {"name":"Fieldgoal", "class":"ld-fieldgoal"}
+        ]
+    },
+    {
+        "theme" : "UTF-8 Characters",
+        "loaders" : [
+            {"name":"Snowflake", "class":"ld-snowflake"},
+            {"name":"Airplane", "class":"ld-airplane"},
+            {"name":"Point Up", "class":"ld-point-up"},
+            {"name":"Point Right", "class":"ld-point-right"},
+            {"name":"Point Down", "class":"ld-point-down"},
+            {"name":"Point Left", "class":"ld-point-left"},
+            {"name":"Music", "class":"ld-blank"},
+            {"name":"Flower", "class":"ld-flower"},
+            {"name":"Biohazard", "class":"ld-biohazard"},
+            {"name":"Radioactive", "class":"ld-radioactive"},
+            {"name":"Solid Caret Up", "class":"ld-caret-up"},
+            {"name":"Solid Caret Right", "class":"ld-caret-right"},
+            {"name":"Solid Caret Down", "class":"ld-caret-down"},
+            {"name":"Solid Caret Left", "class":"ld-caret-left"}
         ]
     },
     {

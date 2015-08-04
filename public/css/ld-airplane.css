@@ -1,0 +1,13 @@
+.ld-airplane {
+  margin: 0px;
+  -webkit-animation: ld-generic-spin 2s 0s infinite linear;
+  animation: ld-generic-spin 2s 0s infinite linear;
+}
+.ld-airplane:before {
+  content: "✈"!important;
+  color: white;
+  font-size: 40px;
+  margin: -35px 5px;
+
+  -webkit-transform: rotateZ(60deg);
+}
