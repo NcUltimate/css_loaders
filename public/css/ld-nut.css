@@ -1,0 +1,12 @@
+.ld-nut:before {
+  content: "⏣"!important;
+  font-size: 50px;
+  margin: -30px -22px;
+  line-height: 48px;
+
+  -webkit-transform-origin: 50% 56%;
+  transform-origin: 50% 56%;
+
+  -webkit-animation: ld-generic-spin 2s 0s infinite ease-out;
+  animation: ld-generic-spin 2s 0s infinite ease-out;
+}

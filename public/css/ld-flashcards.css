@@ -1,20 +1,17 @@
 .ld-flashcards:before,
 .ld-flashcards:after {
-  padding: 15px 20px;
-  background: white;
+  margin: -14px -19px;
+  padding: 10px 15px;
+  border: 4px solid white;
 
   -webkit-transform-origin: 150% center;
   transform-origin: 150% center;
 }
 .ld-flashcards:before {
-  margin: -15px -20px;
-
   -webkit-animation: ld-flashcards-before 0.75s 0s infinite ease;
   animation: ld-flashcards-before 0.75s 0s infinite ease;
 }
 .ld-flashcards:after {
-  margin: -15px -20px;
-
   -webkit-transform: rotateZ(60deg);
   transform: rotateZ(60deg);
 

@@ -46,6 +46,7 @@
 .ld:before, 
 .ld:after {
   position: absolute;
+  color: white;
   content: "";
   top: 50%;
   left: 50%;

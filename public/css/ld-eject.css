@@ -1,0 +1,12 @@
+.ld-eject:before {
+  content: "⇪"!important;
+  font-size: 30px;
+  margin: -30px -15px;
+  line-height: 48px;
+
+  -webkit-transform-origin: 50% 56%;
+  transform-origin: 50% 56%;
+
+  -webkit-animation: ld-generic-point-up 0.75s 0s infinite ease;
+  animation: ld-generic-point-up 0.75s 0s infinite ease;
+}

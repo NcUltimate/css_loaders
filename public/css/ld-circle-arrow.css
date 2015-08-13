@@ -1,0 +1,12 @@
+.ld-circle-arrow:before {
+  content: "⎋"!important;
+  font-size: 30px;
+  margin: -30px -15px;
+  line-height: 48px;
+
+  -webkit-transform-origin: 50% 45%;
+  transform-origin: 50% 45%;
+
+  -webkit-animation: ld-generic-spin 1.5s 0s infinite linear;
+  animation: ld-generic-spin 1.5s 0s infinite linear;
+}

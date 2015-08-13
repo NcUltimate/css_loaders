@@ -1,0 +1,61 @@
+.ld-music:before,
+.ld-music:after {
+  font-size: 40px;
+  line-height: 48px;
+}
+.ld-music:before {
+  content: "♪"!important;
+  margin: -30px -25px;
+
+  -webkit-animation: ld-music-before 0.75s 0s infinite ease;
+  animation: ld-music-before 0.75s 0s infinite ease;
+}
+.ld-music:after {
+  content: "♫"!important;
+  margin: -30px -15px;
+  opacity: 0;
+
+  -webkit-animation: ld-music-after 0.75s 0.4s infinite ease;
+  animation: ld-music-after 0.75s 0.4s infinite ease;
+}
+@-webkit-keyframes ld-music-before {
+  0% {
+    margin: -30px -25px;
+    opacity: 1;
+  }
+  80%, 100% {
+    margin: -50px -35px;
+    opacity: 0;
+  }
+}
+@keyframes ld-music-before {
+  0% {
+    margin: -30px -25px;
+    opacity: 1;
+  }
+  80%, 100% {
+    margin: -50px -35px;
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes ld-music-after {
+  0% {
+    margin: -30px -15px;
+    opacity: 1;
+  }
+  80%, 100% {
+    margin: -45px -10px;
+    opacity: 0;
+  }
+}
+@keyframes ld-music-after {
+  0% {
+    margin: -30px -15px;
+    opacity: 1;
+  }
+  80%, 100% {
+    margin: -45px -10px;
+    opacity: 0;
+  }
+}

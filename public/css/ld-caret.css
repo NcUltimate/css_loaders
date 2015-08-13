@@ -3,27 +3,32 @@
 .ld-caret-down:before,
 .ld-caret-left:before {
   color: white;
-  font-size: 40px;
-  margin: -35px -20px;
+  font-size: 30px;
+  margin: -30px -15px;
 
   -webkit-animation: ld-generic-point-up 0.75s 0s infinite ease;
   animation: ld-generic-point-up 0.75s 0s infinite ease;
 }
 .ld-caret-up:before {
   content: "△"!important;
+  margin: -20px -15px;
 }
 .ld-caret-right:before {
   content: "▷"!important;
+  margin: -30px -15px;
   -webkit-animation-name: ld-generic-point-right;
   animation-name: ld-generic-point-right;
 }
 .ld-caret-down:before {
   content: "▽"!important;
+  margin: -20px -15px;
   -webkit-animation-name: ld-generic-point-down;
   animation-name: ld-generic-point-down;
 }
 .ld-caret-left:before {
   content: "◃"!important;
+  margin: -30px -15px;
+  font-size: 40px;
   -webkit-animation-name: ld-generic-point-left;
   animation-name: ld-generic-point-left;
 }

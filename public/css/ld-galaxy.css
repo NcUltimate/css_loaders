@@ -1,0 +1,12 @@
+.ld-galaxy:before {
+  content: "࿂"!important;
+  font-size: 60px;
+  margin: -30px -20px;
+  line-height: 48px;
+
+  -webkit-transform-origin: 50% 45%;
+  transform-origin: 50% 45%;
+
+  -webkit-animation: ld-generic-spin 1s 0s infinite linear;
+  animation: ld-generic-spin 1s 0s infinite linear;
+}

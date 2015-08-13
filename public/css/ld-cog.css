@@ -1,0 +1,9 @@
+.ld-cog:before {
+  content: "⚙"!important;
+  font-size: 60px;
+  margin: -30px -18px;
+  line-height: 48px;
+
+  -webkit-animation: ld-generic-spin 1.5s 0s infinite linear;
+  animation: ld-generic-spin 1.5s 0s infinite linear;
+}
