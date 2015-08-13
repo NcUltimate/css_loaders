@@ -1,6 +1,6 @@
 .ld-suits:before {
   content: "♠♣♥♦";
-  font-size: 40px;
+  font-size: 35px;
   margin: -30px -40px;
   line-height: 48px;
   width: 0px;
@@ -12,15 +12,15 @@
 }
 @-webkit-keyframes ld-suits {
   0%, 9.9% { width: 0px; }
-  10%, 19.9% { width: 22px; }
-  20%, 29.9% { width: 48px; }
-  30%, 39.9% { width: 72px; }
-  40%, 100% { width: 98px; }
+  10%, 19.9% { width: 18px; }
+  20%, 29.9% { width: 42px; }
+  30%, 39.9% { width: 62px; }
+  40%, 100% { width: 90px; }
 }
 @keyframes ld-suits {
   0%, 9.9% { width: 0px; }
-  10%, 19.9% { width: 22px; }
-  20%, 29.9% { width: 48px; }
-  30%, 39.9% { width: 72px; }
-  40%, 100% { width: 98px; }
+  10%, 19.9% { width: 18px; }
+  20%, 29.9% { width: 42px; }
+  30%, 39.9% { width: 62px; }
+  40%, 100% { width: 90px; }
 }
