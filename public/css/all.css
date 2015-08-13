@@ -38,13 +38,14 @@ body {
 .header h2 {
   display: inline;
   font-size: 64px;
-  margin: 5px;
+  margin: 5px 10px;
 }
 .header span {
   font-family: "DogeSans";
   font-size: 45px;
-  border: 2px solid white;
-  padding: 5px 10px;
+  border: 4px solid white;
+  padding: 3px 10px;
+  margin-left: -10px;
   border-radius: 40px;
 }
 .header p {
