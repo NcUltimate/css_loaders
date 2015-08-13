@@ -162,6 +162,9 @@ body {
   .header .header-section:last-child {
     display: none;
   }
+  .header h2 {
+    font-size: 48px;
+  }
   .header p {
     width: 100%;
   }
